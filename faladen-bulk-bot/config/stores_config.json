@@ -1,0 +1,20 @@
+{
+  "stores": {
+    "willys": {
+      "enabled": true,
+      "name": "Willys Norra Fäladen",
+      "location_id": "1222"
+    },
+    "ica": {
+      "enabled": true,
+      "name": "ICA Kvantum Fäladstorget",
+      "store_id": "1004422"
+    },
+    "lidl": {
+      "enabled": false,
+      "name": "Lidl Norra Fäladen",
+      "note": "Förberedd som modul – aktivera när API är utforskat"
+    }
+  },
+  "split_threshold_sek": 50
+}

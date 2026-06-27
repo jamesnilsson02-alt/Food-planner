@@ -1,0 +1,9 @@
+{
+  "week": null,
+  "strategy": null,
+  "meals": [],
+  "shopping_list": { "primary": [], "secondary": [] },
+  "total_cost_sek": null,
+  "estimated_protein_g_week": null,
+  "notes": null
+}
