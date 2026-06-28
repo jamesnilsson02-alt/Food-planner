@@ -34,6 +34,6 @@ jobs:
         run: |
           git config user.name "Bulk Bot"
           git config user.email "bulk-bot@github-actions"
-          git add docs/current_menu.json
+          git add faladen-bulk-bot/docs/current_menu.json
           git diff --staged --quiet || git commit -m "🍗 Veckans matsedel $(date +'%Y-%m-%d')"
           git push
