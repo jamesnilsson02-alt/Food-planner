@@ -75,6 +75,7 @@ VIKTIGA REGLER FÖR RECEPT:
 - Varje rätt ska vara aptitlig, mättande och enkel att meal-prepa i stor sats.
 - Utnyttja veckans extrapriser som bas – bygg recepten kring de billigaste proteinkällorna på extrapris.
 - Varje rätt ska ha 4-5 portioner.
+- Varorna i listan är VECKANS EXTRAPRISER – bygg recepten kring dem, inte kring fullprisvaror.
 
 KRITISK REGEL FÖR INKÖPSLISTAN:
 - Inköpslistan MÅSTE innehålla VARJE enskild ingrediens från ALLA 4 recept.
@@ -123,7 +124,7 @@ Strukturen måste matcha detta schema exakt:
   "notes": "Eventuella varningar om ursprung eller substitut"
 }}"""
 
-user_message = f"Veckans erbjudanden:\n{offers_json}\n\nGenerera veckans matsedel."
+user_message = f"Dagens datum: {date.today()}\n\nVeckans erbjudanden:\n{offers_json}\n\nGenerera veckans matsedel."
 
 # ── Anropa Claude API ──────────────────────────────────────────────────────────
 print("Anropar Claude API...")
