@@ -5,8 +5,8 @@
       "name": "Willys Norra Fäladen",
       "location_id": "1222"
     },
-    "ica": { "enabled": false, ... }
-      "enabled": true,
+    "ica": {
+      "enabled": false,
       "name": "ICA Kvantum Fäladstorget",
       "store_id": "1004422"
     },
