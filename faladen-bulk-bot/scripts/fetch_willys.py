@@ -5,7 +5,7 @@ Hämtar veckans extrapriser från Willys (Axfood) och returnerar en filtrerad li
 
 import requests
 
-WILLYS_API_URL = "https://www.willys.se/offers/offline"
+WILLYS_API_URL = "https://www.willys.se/axfood/rest/v1/search/campaigns/offline"
 
 # Ord som direkt diskvalificerar en vara – filtreras bort lokalt för att spara tokens
 BLACKLIST_KEYWORDS = [
