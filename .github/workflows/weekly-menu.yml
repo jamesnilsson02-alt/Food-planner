@@ -28,7 +28,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python scripts/generate_menu.py
+        run: python faladen-bulk-bot/scripts/generate_menu.py
 
       - name: Commit and push current_menu.json
         run: |
