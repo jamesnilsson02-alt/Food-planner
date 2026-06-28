@@ -36,13 +36,13 @@ FOOD_WHITELIST_KEYWORDS = [
 def fetch_offers(location_id: str) -> list[dict]:
     """Anropar Willys API och returnerar råa erbjudanden."""
     try:
-        params = {"location": location_id, "channel": "WEB"}
+        params = {"q": "2176", "type": "PERSONAL_GENERAL", "page": 0, "size": 100}
         headers = {"Accept": "application/json", "User-Agent": "FaladenBulkBot/1.0"}
         resp = requests.get(WILLYS_API_URL, params=params, headers=headers, timeout=15)
         resp.raise_for_status()
         data = resp.json()
         # Axfood API returnerar offers i olika strukturer – försök båda
-        return data.get("results", data.get("offers", []))
+        return data.get("results", data.get("content", []))
     except Exception as e:
         print(f"[Willys] Fel vid hämtning: {e}")
         return []
