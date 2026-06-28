@@ -1,9 +1,258 @@
 {
-  "week": null,
-  "strategy": null,
-  "meals": [],
-  "shopping_list": { "primary": [], "secondary": [] },
-  "total_cost_sek": null,
-  "estimated_protein_g_week": null,
-  "notes": null
+  "week": "2025-01-27",
+  "strategy": {
+    "primary_store": "willys",
+    "split": false,
+    "split_reason": null,
+    "split_savings_sek": 0
+  },
+  "meals": [
+    {
+      "name": "Ugnsrostad kycklingbröstfilé med pasta och riven ost",
+      "description": "Enkel meal-prep-klassiker. Kycklingbröstfilé kryddas och ugnsbakas, serveras med kokt pasta och riven ost för extra kalorier och protein.",
+      "protein_g_per_serving": 52,
+      "servings": 5,
+      "instructions": [
+        "Sätt ugnen på 200°C.",
+        "Gnid in kycklingfiléerna med salt, peppar och rapsolja.",
+        "Lägg på plåt och tillaga i ugnen 20–25 min tills innertemperatur är 72°C.",
+        "Koka pasta enligt förpackning.",
+        "Skiva kycklingen och servera med pasta och riven ost.",
+        "Dela upp i matlådor."
+      ],
+      "ingredients": [
+        {
+          "name": "Kycklingbröstfilé",
+          "amount": "1 förp. (~800 g)",
+          "store": "willys",
+          "price_sek": 112.62,
+          "origin_flag": "⚠️ Ursprung okänt"
+        },
+        {
+          "name": "Pasta",
+          "amount": "500 g",
+          "store": "willys",
+          "price_sek": 15.99,
+          "origin_flag": null
+        },
+        {
+          "name": "Riven ost",
+          "amount": "1 påse (~200 g)",
+          "store": "willys",
+          "price_sek": 34.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Rapsolja",
+          "amount": "1 msk",
+          "store": "willys",
+          "price_sek": 4.0,
+          "origin_flag": null
+        }
+      ]
+    },
+    {
+      "name": "Nötfärsgyta med konserverade bönor och yoghurt",
+      "description": "Proteinrik gryta på nötfärs, bönor och kryddor. Serveras med naturell yoghurt som proteinboost istället för grädde.",
+      "protein_g_per_serving": 48,
+      "servings": 5,
+      "instructions": [
+        "Bryn nötfärsen i gryta med lite rapsolja, salt och peppar.",
+        "Tillsätt 2 burkar konserverade bönor (bas, t.ex. kidneybönor eller vita bönor, ~400 g/burk).",
+        "Häll på 4 dl vatten och låt puttra 20 min.",
+        "Smaka av med salt, peppar och spiskummin.",
+        "Servera med en klick naturell yoghurt.",
+        "Dela upp i matlådor."
+      ],
+      "ingredients": [
+        {
+          "name": "Nötfärs",
+          "amount": "1 förp. (~500 g)",
+          "store": "willys",
+          "price_sek": 99.9,
+          "origin_flag": "⚠️ Ursprung okänt"
+        },
+        {
+          "name": "Konserverade bönor (kidneybönor eller vita bönor)",
+          "amount": "2 burkar (~800 g)",
+          "store": "bas",
+          "price_sek": 20.0,
+          "origin_flag": null
+        },
+        {
+          "name": "Mild naturell yoghurt",
+          "amount": "1 förp. (1 kg)",
+          "store": "willys",
+          "price_sek": 14.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Rapsolja",
+          "amount": "1 msk",
+          "store": "willys",
+          "price_sek": 2.0,
+          "origin_flag": null
+        }
+      ]
+    },
+    {
+      "name": "Ugnsrostad hel laxsida med cocktailtomater",
+      "description": "Hel laxsida ugnsbakas med rapsolja, salt och citron. Serveras med rostade cocktailtomater – enkel och proteinrik rätt för hela veckan.",
+      "protein_g_per_serving": 45,
+      "servings": 5,
+      "instructions": [
+        "Sätt ugnen på 180°C.",
+        "Lägg laxsidan på plåt, pensla med rapsolja, salta och peppra.",
+        "Lägg cocktailtomaterna runt laxen.",
+        "Tillaga i ugnen 20–25 min tills laxen är genomvarm och lätt flagar sig.",
+        "Porsionera upp laxen i 5 delar och fördela i matlådor med tomaterna."
+      ],
+      "ingredients": [
+        {
+          "name": "Hel färsk laxsida",
+          "amount": "1 st (~1 kg)",
+          "store": "willys",
+          "price_sek": 188.33,
+          "origin_flag": null
+        },
+        {
+          "name": "Cocktailtomater 250 g",
+          "amount": "1 förp.",
+          "store": "willys",
+          "price_sek": 16.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Rapsolja",
+          "amount": "2 msk",
+          "store": "willys",
+          "price_sek": 3.0,
+          "origin_flag": null
+        }
+      ]
+    },
+    {
+      "name": "Kycklingben i ugn med vitost och jubileumsbröd",
+      "description": "Krispiga kycklingben ugnsbakas enkelt med kryddor. Serveras med smulad vitost och bröd för extra kalorier och smak.",
+      "protein_g_per_serving": 38,
+      "servings": 4,
+      "instructions": [
+        "Sätt ugnen på 220°C.",
+        "Gnid in kycklingbenen med salt, peppar, paprikapulver och rapsolja.",
+        "Lägg på galler eller plåt och rosta i ugnen 35–40 min tills skinnet är knaprigt.",
+        "Smula vitost över och servera med skivor av jubileumsbröd.",
+        "Fördela i matlådor."
+      ],
+      "ingredients": [
+        {
+          "name": "Kycklingben",
+          "amount": "1 förp. (~1 kg)",
+          "store": "willys",
+          "price_sek": 51.95,
+          "origin_flag": "⚠️ Ursprung okänt"
+        },
+        {
+          "name": "Vitost",
+          "amount": "1 förp. (~200 g)",
+          "store": "willys",
+          "price_sek": 24.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Jubileumsbröd",
+          "amount": "1 limpa",
+          "store": "willys",
+          "price_sek": 30.19,
+          "origin_flag": null
+        },
+        {
+          "name": "Rapsolja",
+          "amount": "2 msk",
+          "store": "willys",
+          "price_sek": 3.0,
+          "origin_flag": null
+        }
+      ]
+    }
+  ],
+  "shopping_list": {
+    "primary": [
+      {
+        "name": "Kycklingbröstfilé",
+        "amount": "1 förp. (~800 g)",
+        "price_sek": 112.62,
+        "checked": false
+      },
+      {
+        "name": "Nötfärs",
+        "amount": "1 förp. (~500 g)",
+        "price_sek": 99.9,
+        "checked": false
+      },
+      {
+        "name": "Hel färsk laxsida",
+        "amount": "1 st (~1 kg)",
+        "price_sek": 188.33,
+        "checked": false
+      },
+      {
+        "name": "Kycklingben",
+        "amount": "1 förp. (~1 kg)",
+        "price_sek": 51.95,
+        "checked": false
+      },
+      {
+        "name": "Pasta",
+        "amount": "500 g",
+        "price_sek": 15.99,
+        "checked": false
+      },
+      {
+        "name": "Riven ost",
+        "amount": "1 påse (~200 g)",
+        "price_sek": 34.9,
+        "checked": false
+      },
+      {
+        "name": "Mild naturell yoghurt",
+        "amount": "1 kg",
+        "price_sek": 14.9,
+        "checked": false
+      },
+      {
+        "name": "Cocktailtomater 250 g",
+        "amount": "1 förp.",
+        "price_sek": 16.9,
+        "checked": false
+      },
+      {
+        "name": "Vitost",
+        "amount": "1 förp. (~200 g)",
+        "price_sek": 24.9,
+        "checked": false
+      },
+      {
+        "name": "Jubileumsbröd",
+        "amount": "1 limpa",
+        "price_sek": 30.19,
+        "checked": false
+      },
+      {
+        "name": "Rapsolja",
+        "amount": "1 flaska",
+        "price_sek": 23.56,
+        "checked": false
+      },
+      {
+        "name": "Konserverade bönor (kidneybönor/vita bönor)",
+        "amount": "2 burkar (~400 g/st)",
+        "price_sek": 20.0,
+        "checked": false
+      }
+    ],
+    "secondary": []
+  },
+  "total_cost_sek": 634.14,
+  "estimated_protein_g_week": 915,
+  "notes": "⚠️ URSPRUNGSVARNING: Kycklingbröstfilé, Kycklingben och Nötfärs saknar ursprungsangivelse i butikens data. Enligt köttkravet MÅSTE dessa vara av svenskt ursprung – kontrollera förpackningens märkning i butiken. Om ursprung ej kan bekräftas som svenskt, ersätt med: ägg (bas, ~30 kr/12-pack), kvarg (bas, ~25 kr/500 g), eller fler konserverade bönor/linser. Bönor är bas-varor som bör finnas i lager – justera priset efter aktuellt inköp. Total proteinkostnad ca 6,93 kr/100 g protein (exkl. okontrollerbara bönpriser)."
 }
