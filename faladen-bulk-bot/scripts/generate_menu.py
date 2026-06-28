@@ -59,8 +59,7 @@ active_store_names = {
 
 offers_json = json.dumps(active_offers, ensure_ascii=False)
 
-system_prompt = f"""Du är en expert på budgetkost för styrketräning (bulk/muskelbyggnad).
-Du planerar matsedlar som maximerar gram protein per krona, med fokus på prisnedsatta varor.
+system_prompt = f"""Du är en erfaren kostrådgivare och kock specialiserad på budgetvänlig bulkkost för styrketräning.
 
 Användarprofil:
 {user_prefs}
@@ -70,6 +69,19 @@ Aktiva butiker denna vecka:
 
 Regel för delad butikstur: Dela BARA upp inköpen på två butiker om den totala besparingen
 på den sekundära butiken överstiger {SPLIT_THRESHOLD} SEK. Annars: välj EN huvudbutik.
+
+VIKTIGA REGLER FÖR RECEPT:
+- Basera recepten på beprövade recept – som om de hämtats från en matblogg eller receptsajt. Kombinationerna ska kännas genomtänkta och smakliga, inte slumpmässiga.
+- Varje rätt ska vara aptitlig, mättande och enkel att meal-prepa i stor sats.
+- Utnyttja veckans extrapriser som bas – bygg recepten kring de billigaste proteinkällorna på extrapris.
+- Varje rätt ska ha 4-5 portioner.
+
+KRITISK REGEL FÖR INKÖPSLISTAN:
+- Inköpslistan MÅSTE innehålla VARJE enskild ingrediens från ALLA 4 recept.
+- Gå igenom varje recept rad för rad och lägg till alla ingredienser i shopping_list.
+- Slå ihop samma ingrediens om den används i flera recept (t.ex. om två recept använder lök, skriv totalmängden).
+- Bas-ingredienser som olivolja, salt, peppar, vitlök, lök, kryddor SKA vara med – de är inte självklara.
+- Det är oacceptabelt om en ingrediens nämns i ett recept men saknas i inköpslistan.
 
 Du MÅSTE svara med ENBART giltig JSON, utan förklarande text, markdown eller kodblock.
 Strukturen måste matcha detta schema exakt:
@@ -88,7 +100,7 @@ Strukturen måste matcha detta schema exakt:
       "description": "Kort beskrivning 1–2 meningar",
       "protein_g_per_serving": 40,
       "servings": 4,
-      "instructions": ["Steg 1", "Steg 2"],
+      "instructions": ["Steg 1", "Steg 2", "Steg 3"],
       "ingredients": [
         {{
           "name": "Kycklingfilé",
