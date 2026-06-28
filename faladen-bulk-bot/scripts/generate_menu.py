@@ -184,7 +184,7 @@ if webhook_url:
                 f"**Protein:** ~{protein} g för veckan"
             ),
             "color": 0x4CAF50,
-            "url": "https://DITT_GITHUB_USERNAME.github.io/faladen-bulk-bot/",
+            "url": "https://jamesnilsson02-alt.github.io/Food-planner/",
             "footer": {"text": "Fäladen Bulk Bot 🤖"},
         }]
     }
