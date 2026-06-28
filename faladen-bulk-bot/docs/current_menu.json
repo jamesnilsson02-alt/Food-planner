@@ -8,37 +8,108 @@
   },
   "meals": [
     {
-      "name": "Ugnsrostad kycklingbröstfilé med vitlökspotatis och yoghurtsås",
-      "description": "Saftiga kycklingbröst marinerade i rapsolja och kryddor, ugnsrostade med potatis. Serveras med en enkel yoghurt-vitlökssås. Klassisk meal-prep-favorit som håller hela veckan.",
+      "name": "Nötfärsgratäng med pasta och riven ost",
+      "description": "Klassisk köttfärssås med pasta, toppad med rikligt riven ost och gratinerad i ugnen. Perfekt att portionera upp för hela veckan.",
       "protein_g_per_serving": 48,
       "servings": 5,
       "instructions": [
-        "Sätt ugnen på 200°C. Blanda rapsolja, paprikapulver, vitlökspulver, salt och peppar i en skål.",
-        "Lägg kycklingbröstfiléerna i en ugnsform, pensla med kryddblandningen.",
-        "Skär potatisen i klyftor, blanda med rapsolja, salt och rosmarin och lägg runt kycklingen.",
-        "Rosta i ugnen ca 25–30 minuter tills kycklingen är genomstekt (innertemperatur 72°C).",
-        "Blanda yoghurt med pressad vitlök, salt och lite citronsaft. Servera över kycklingen."
+        "Bryn nötfärsen i en stor stekpanna med lök och vitlök tills den är genomstekt. Krydda med salt, peppar, oregano och paprikapulver.",
+        "Tillsätt krossade tomater och låt såsen puttra på medelvärme i 15 minuter. Smaka av med salt och peppar.",
+        "Koka pastan al dente enligt förpackningen, häll av och blanda med köttfärssåsen i en ugnsform.",
+        "Strö över riven ost rikligt och gratinera i ugn på 225°C i ca 15 minuter tills osten är gyllenbrun och bubblig.",
+        "Låt svalna något, portionera i 5 matlådor och ställ i kylskåpet."
       ],
       "ingredients": [
         {
-          "name": "Kycklingbröstfilé",
-          "amount": "1 förpackning (ca 1 kg)",
+          "name": "Nötfärs",
+          "amount": "800 g",
           "store": "willys",
-          "price_sek": 112.62,
+          "price_sek": 99.9,
           "origin_flag": "⚠️ Ursprung okänt"
         },
         {
-          "name": "Potatis",
-          "amount": "1 kg",
-          "store": "bas",
-          "price_sek": 20.0,
+          "name": "Riven ost",
+          "amount": "1 påse (ca 200 g)",
+          "store": "willys",
+          "price_sek": 34.9,
           "origin_flag": null
         },
         {
-          "name": "Mild naturell yoghurt",
-          "amount": "1 förpackning (500 g)",
+          "name": "Pasta",
+          "amount": "500 g",
           "store": "willys",
-          "price_sek": 14.9,
+          "price_sek": 15.99,
+          "origin_flag": null
+        },
+        {
+          "name": "Krossade tomater",
+          "amount": "2 burkar (800 g)",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Gul lök",
+          "amount": "2 st",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Vitlök",
+          "amount": "4 klyftor",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Oregano",
+          "amount": "2 tsk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Paprikapulver",
+          "amount": "1 tsk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Salt och peppar",
+          "amount": "efter smak",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        }
+      ]
+    },
+    {
+      "name": "Ugnsrostad hel laxsida med citron och örter",
+      "description": "En hel laxsida tillagad i ugnen med olivolja, citron och örter – saftigt resultat med minimalt jobb. Serveras med ris och cocktailtomater.",
+      "protein_g_per_serving": 45,
+      "servings": 5,
+      "instructions": [
+        "Lägg laxsidan med skinnsidan ned på en bakpappersklädd plåt. Pensla med rapsolja och krydda generöst med salt, peppar, dill och citronsaft.",
+        "Halvera cocktailomaterna och lägg runt laxen på plåten.",
+        "Rosta i ugn på 200°C i ca 20–25 minuter tills laxen är genomstekt och flagar sig lätt.",
+        "Koka upp ris under tiden enligt förpackning (ca 3 dl råris till 6 dl vatten).",
+        "Dela laxen i 5 portioner och servera med ris och rostade tomater. Portionera i matlådor."
+      ],
+      "ingredients": [
+        {
+          "name": "Hel färsk laxsida",
+          "amount": "1 st (ca 1,2 kg)",
+          "store": "willys",
+          "price_sek": 188.33,
+          "origin_flag": null
+        },
+        {
+          "name": "Cocktailtomater 250g",
+          "amount": "1 förpackning",
+          "store": "willys",
+          "price_sek": 16.9,
           "origin_flag": null
         },
         {
@@ -49,468 +120,316 @@
           "origin_flag": null
         },
         {
-          "name": "Vitlök",
-          "amount": "4 klyftor",
-          "store": "bas",
-          "price_sek": 5.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Paprikapulver",
-          "amount": "2 tsk",
-          "store": "bas",
-          "price_sek": 5.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Vitlökspulver",
-          "amount": "1 tsk",
-          "store": "bas",
-          "price_sek": 3.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Rosmarin (torkad)",
-          "amount": "1 tsk",
-          "store": "bas",
-          "price_sek": 3.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Salt",
-          "amount": "efter smak",
-          "store": "bas",
-          "price_sek": 2.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Peppar",
-          "amount": "efter smak",
-          "store": "bas",
-          "price_sek": 2.0,
+          "name": "Ris",
+          "amount": "3 dl",
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         },
         {
           "name": "Citron",
           "amount": "1 st",
-          "store": "bas",
-          "price_sek": 5.0,
-          "origin_flag": null
-        }
-      ]
-    },
-    {
-      "name": "Nötfärsgryta med pasta och riven ost",
-      "description": "En riktig bulkklassiker – kraftig nötfärssås med tomat, lök och vitlök som kokas ihop till en mustig gryta och serveras med pasta och riven ost. Enkel, kalorität och proteinrik.",
-      "protein_g_per_serving": 45,
-      "servings": 5,
-      "instructions": [
-        "Hacka lök och vitlök fint. Fräs i rapsolja i en stor gryta på medelhög värme tills mjuk, ca 5 minuter.",
-        "Tillsätt nötfärsen och bryn under omrörning tills genomstekt. Krydda med salt, peppar och oregano.",
-        "Häll i krossade tomater och en skvätt vatten. Sjud på låg värme i 20 minuter.",
-        "Koka pastan enligt förpackning i välsaltat vatten. Häll av och blanda med såsen.",
-        "Servera med riven ost på toppen."
-      ],
-      "ingredients": [
-        {
-          "name": "Nötfärs",
-          "amount": "1 förpackning (ca 800 g)",
-          "store": "willys",
-          "price_sek": 99.9,
-          "origin_flag": "⚠️ Ursprung okänt"
-        },
-        {
-          "name": "Pasta",
-          "amount": "2 förpackningar (à ca 500 g)",
-          "store": "willys",
-          "price_sek": 31.98,
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         },
         {
-          "name": "Riven ost",
-          "amount": "1 förpackning",
-          "store": "willys",
-          "price_sek": 34.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Krossade tomater",
-          "amount": "2 burkar (à 400 g)",
-          "store": "bas",
-          "price_sek": 20.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Lök",
-          "amount": "2 st",
-          "store": "bas",
-          "price_sek": 5.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Vitlök",
-          "amount": "4 klyftor",
-          "store": "bas",
-          "price_sek": 0.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Rapsolja",
-          "amount": "2 msk",
-          "store": "willys",
-          "price_sek": 0.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Oregano (torkad)",
+          "name": "Dill (torkad eller färsk)",
           "amount": "2 tsk",
-          "store": "bas",
-          "price_sek": 3.0,
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         },
         {
-          "name": "Salt",
+          "name": "Salt och peppar",
           "amount": "efter smak",
-          "store": "bas",
-          "price_sek": 0.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Peppar",
-          "amount": "efter smak",
-          "store": "bas",
-          "price_sek": 0.0,
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         }
       ]
     },
     {
-      "name": "Ugnsbakad laxsida med cocktailtomater och salladsost",
-      "description": "Hel laxsida tillagad i ugnen med olivolja, citron och vitlök – enkel och imponerande. Toppas med ugnstorkade cocktailtomater och smulad salladsost för en fräsch sommarmåltid.",
-      "protein_g_per_serving": 42,
-      "servings": 5,
-      "instructions": [
-        "Sätt ugnen på 180°C. Lägg laxsidan med skinnsidan ned på ett bakplåtspapper på en ugnsplåt.",
-        "Pensla laxen med olivolja, pressa över citron och lägg skivad vitlök ovanpå. Krydda med salt och peppar.",
-        "Fördela cocktailtomaterna runt laxen på plåten.",
-        "Baka i ugnen i 20–25 minuter tills laxen är genomstekt och tomaterna mjuknat.",
-        "Ta ut, smula salladsost över laxen och tomaterna. Servera direkt eller kyl för meal-prep."
-      ],
-      "ingredients": [
-        {
-          "name": "Hel färsk laxsida",
-          "amount": "1 st",
-          "store": "willys",
-          "price_sek": 188.33,
-          "origin_flag": null
-        },
-        {
-          "name": "Cocktailtomater 250g",
-          "amount": "2 förpackningar",
-          "store": "willys",
-          "price_sek": 33.8,
-          "origin_flag": null
-        },
-        {
-          "name": "Salladsost",
-          "amount": "1 förpackning",
-          "store": "willys",
-          "price_sek": 17.88,
-          "origin_flag": null
-        },
-        {
-          "name": "Olivolja",
-          "amount": "3 msk",
-          "store": "willys",
-          "price_sek": 122.08,
-          "origin_flag": null
-        },
-        {
-          "name": "Citron",
-          "amount": "1 st",
-          "store": "bas",
-          "price_sek": 0.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Vitlök",
-          "amount": "3 klyftor",
-          "store": "bas",
-          "price_sek": 0.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Salt",
-          "amount": "efter smak",
-          "store": "bas",
-          "price_sek": 0.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Peppar",
-          "amount": "efter smak",
-          "store": "bas",
-          "price_sek": 0.0,
-          "origin_flag": null
-        }
-      ]
-    },
-    {
-      "name": "Kycklingben i ugn med ris och vitost-yoghurtsås",
-      "description": "Kryddiga ugnsrostade kycklingben som blir härligt krispiga utanpå och saftiga inuti. Serveras med fluffigt ris och en krämig vitost-yoghurtsås. Perfekt för bulkpreppning – billigt och proteintätt.",
+      "name": "Ugnskycklingben med vitlök och paprika",
+      "description": "Saftiga, kryddiga kycklingben ugnsrostade med vitlök och paprikamarinad – billigt, proteinrikt och otroligt smakfullt. Serveras med kokt potatis.",
       "protein_g_per_serving": 38,
       "servings": 4,
       "instructions": [
-        "Sätt ugnen på 220°C. Blanda paprikapulver, vitlökspulver, spiskummin, salt och peppar med rapsolja.",
-        "Gnid in kycklingbenen ordentligt med kryddblandningen och lägg dem på ett ugnsgaller över en plåt.",
-        "Rosta i ugnen i 35–40 minuter tills skinnet är knaprigt och kycklingen genomstekt.",
-        "Koka riset enligt förpackningens anvisning med lite salt.",
-        "Blanda smulad vitost med yoghurt, pressad vitlök och lite citronsaft till en sås. Servera kycklingen med ris och sås."
+        "Blanda rapsolja, vitlök, paprikapulver, spiskummin, salt och peppar i en skål. Vänd kycklingbenen i marinaden och låt stå minst 30 minuter (gärna över natten).",
+        "Lägg kycklingbenen på en bakpappersklädd plåt och rosta i ugn på 220°C i 35–40 minuter tills skinnet är krispigt och köttet genomstekt (innertemp 82°C).",
+        "Koka potatis i saltat vatten under tiden kycklingen är i ugnen.",
+        "Portionera kycklingbenen och potatisen i matlådor. Toppa gärna med lite färsk persilja."
       ],
       "ingredients": [
         {
           "name": "Kycklingben",
-          "amount": "1 förpackning (ca 1 kg)",
+          "amount": "1 kg",
           "store": "willys",
           "price_sek": 51.95,
           "origin_flag": "⚠️ Ursprung okänt"
         },
         {
-          "name": "Ris",
-          "amount": "500 g",
-          "store": "bas",
-          "price_sek": 20.0,
+          "name": "Potatis",
+          "amount": "1 kg",
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         },
         {
-          "name": "Vitost",
-          "amount": "1 förpackning",
-          "store": "willys",
-          "price_sek": 24.9,
+          "name": "Vitlök",
+          "amount": "5 klyftor",
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         },
         {
-          "name": "Mild naturell yoghurt",
-          "amount": "200 g (del av förpackning)",
-          "store": "willys",
-          "price_sek": 0.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Rapsolja",
-          "amount": "3 msk",
-          "store": "willys",
-          "price_sek": 0.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Paprikapulver",
+          "name": "Paprikapulver (rökt eller söt)",
           "amount": "2 tsk",
-          "store": "bas",
-          "price_sek": 0.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Vitlökspulver",
-          "amount": "1 tsk",
-          "store": "bas",
-          "price_sek": 0.0,
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         },
         {
           "name": "Spiskummin",
           "amount": "1 tsk",
-          "store": "bas",
-          "price_sek": 5.0,
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         },
         {
-          "name": "Vitlök",
-          "amount": "2 klyftor",
-          "store": "bas",
-          "price_sek": 0.0,
+          "name": "Rapsolja",
+          "amount": "3 msk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Salt och peppar",
+          "amount": "efter smak",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Persilja",
+          "amount": "lite",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        }
+      ]
+    },
+    {
+      "name": "Kycklingfilé med yoghurtmarinad och ris",
+      "description": "Mör ugnskycklingfilé marinerad i naturell yoghurt, citron och kryddor – en beprövad metod för saftig kyckling. Serveras med ris och sallad.",
+      "protein_g_per_serving": 52,
+      "servings": 4,
+      "instructions": [
+        "Blanda yoghurt, citronsaft, vitlök, gurkmeja, spiskummin, salt och peppar i en skål. Lägg kycklingfiléerna i marinaden och låt marinera minst 1 timme, gärna över natten i kylskåp.",
+        "Lägg kycklingfiléerna i en ugnsform. Rosta i ugn på 200°C i ca 25–30 minuter tills innertemperaturen är 72°C.",
+        "Koka ris under tiden. Skiva kycklingen och servera med ris och eventuellt grönsallad.",
+        "Portionera i 4 matlådor och förvara i kylskåp."
+      ],
+      "ingredients": [
+        {
+          "name": "Kycklingbröstfilé",
+          "amount": "800 g",
+          "store": "willys",
+          "price_sek": 112.62,
+          "origin_flag": "⚠️ Ursprung okänt"
+        },
+        {
+          "name": "Mild naturell yoghurt",
+          "amount": "1 förpackning (500 g)",
+          "store": "willys",
+          "price_sek": 14.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Ris",
+          "amount": "3 dl",
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         },
         {
           "name": "Citron",
-          "amount": "0,5 st",
-          "store": "bas",
-          "price_sek": 0.0,
+          "amount": "1 st",
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         },
         {
-          "name": "Salt",
-          "amount": "efter smak",
-          "store": "bas",
-          "price_sek": 0.0,
+          "name": "Vitlök",
+          "amount": "3 klyftor",
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         },
         {
-          "name": "Peppar",
+          "name": "Gurkmeja",
+          "amount": "1 tsk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Spiskummin",
+          "amount": "1 tsk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Salt och peppar",
           "amount": "efter smak",
-          "store": "bas",
-          "price_sek": 0.0,
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         }
       ]
     }
   ],
   "shopping_list": {
-    "primary": [
-      {
-        "name": "Kycklingbröstfilé",
-        "amount": "1 förpackning (ca 1 kg)",
-        "price_sek": 112.62,
-        "checked": false
-      },
-      {
-        "name": "Kycklingben",
-        "amount": "1 förpackning (ca 1 kg)",
-        "price_sek": 51.95,
-        "checked": false
-      },
+    "offer_items": [
       {
         "name": "Nötfärs",
-        "amount": "1 förpackning (ca 800 g)",
+        "amount": "800 g",
+        "store": "willys",
         "price_sek": 99.9,
         "checked": false
       },
       {
         "name": "Hel färsk laxsida",
         "amount": "1 st",
+        "store": "willys",
         "price_sek": 188.33,
         "checked": false
       },
       {
-        "name": "Mild naturell yoghurt",
-        "amount": "1 förpackning (500 g)",
-        "price_sek": 14.9,
+        "name": "Kycklingben",
+        "amount": "1 kg",
+        "store": "willys",
+        "price_sek": 51.95,
         "checked": false
       },
       {
-        "name": "Salladsost",
-        "amount": "1 förpackning",
-        "price_sek": 17.88,
-        "checked": false
-      },
-      {
-        "name": "Vitost",
-        "amount": "1 förpackning",
-        "price_sek": 24.9,
+        "name": "Kycklingbröstfilé",
+        "amount": "800 g",
+        "store": "willys",
+        "price_sek": 112.62,
         "checked": false
       },
       {
         "name": "Riven ost",
-        "amount": "1 förpackning",
+        "amount": "1 påse",
+        "store": "willys",
         "price_sek": 34.9,
         "checked": false
       },
       {
         "name": "Pasta",
-        "amount": "2 förpackningar (à ca 500 g)",
-        "price_sek": 31.98,
+        "amount": "500 g",
+        "store": "willys",
+        "price_sek": 15.99,
         "checked": false
       },
       {
         "name": "Cocktailtomater 250g",
-        "amount": "2 förpackningar",
-        "price_sek": 33.8,
+        "amount": "1 förpackning",
+        "store": "willys",
+        "price_sek": 16.9,
         "checked": false
       },
       {
         "name": "Rapsolja",
         "amount": "1 flaska",
+        "store": "willys",
         "price_sek": 23.56,
         "checked": false
       },
       {
-        "name": "Olivolja",
-        "amount": "1 flaska",
-        "price_sek": 122.08,
+        "name": "Mild naturell yoghurt",
+        "amount": "500 g",
+        "store": "willys",
+        "price_sek": 14.9,
+        "checked": false
+      }
+    ],
+    "pantry_items": [
+      {
+        "name": "Krossade tomater",
+        "amount": "2 burkar (800 g)",
         "checked": false
       },
       {
-        "name": "Krossade tomater",
-        "amount": "2 burkar (à 400 g)",
-        "price_sek": 20.0,
+        "name": "Ris",
+        "amount": "6 dl",
         "checked": false
       },
       {
         "name": "Potatis",
         "amount": "1 kg",
-        "price_sek": 20.0,
         "checked": false
       },
       {
-        "name": "Ris",
-        "amount": "500 g",
-        "price_sek": 20.0,
-        "checked": false
-      },
-      {
-        "name": "Lök",
+        "name": "Gul lök",
         "amount": "2 st",
-        "price_sek": 5.0,
         "checked": false
       },
       {
         "name": "Vitlök",
         "amount": "1 huvud",
-        "price_sek": 5.0,
         "checked": false
       },
       {
         "name": "Citron",
         "amount": "2 st",
-        "price_sek": 10.0,
-        "checked": false
-      },
-      {
-        "name": "Paprikapulver",
-        "amount": "1 burk",
-        "price_sek": 5.0,
-        "checked": false
-      },
-      {
-        "name": "Vitlökspulver",
-        "amount": "1 burk",
-        "price_sek": 3.0,
-        "checked": false
-      },
-      {
-        "name": "Rosmarin (torkad)",
-        "amount": "1 burk",
-        "price_sek": 3.0,
         "checked": false
       },
       {
         "name": "Oregano (torkad)",
         "amount": "1 burk",
-        "price_sek": 3.0,
+        "checked": false
+      },
+      {
+        "name": "Paprikapulver",
+        "amount": "1 burk",
         "checked": false
       },
       {
         "name": "Spiskummin",
         "amount": "1 burk",
-        "price_sek": 5.0,
+        "checked": false
+      },
+      {
+        "name": "Gurkmeja",
+        "amount": "1 burk",
+        "checked": false
+      },
+      {
+        "name": "Dill (torkad eller färsk)",
+        "amount": "lite",
+        "checked": false
+      },
+      {
+        "name": "Persilja (färsk eller torkad)",
+        "amount": "lite",
         "checked": false
       },
       {
         "name": "Salt",
-        "amount": "1 förpackning",
-        "price_sek": 2.0,
+        "amount": "efter behov",
         "checked": false
       },
       {
-        "name": "Peppar",
-        "amount": "1 förpackning",
-        "price_sek": 2.0,
+        "name": "Svartpeppar",
+        "amount": "efter behov",
         "checked": false
       }
-    ],
-    "secondary": []
+    ]
   },
-  "total_cost_sek": 857.8,
-  "estimated_protein_g_week": 870,
-  "notes": "⚠️ URSPRUNGSVARNING: Kycklingbröstfilé, Kycklingben och Nötfärs saknar ursprungsangivelse i butikens data. Enligt profilen MÅSTE nöt, fläsk och kyckling vara av svenskt ursprung. Kontrollera förpackningarnas ursprungsmärkning i butik – leta efter 🇸🇪 eller 'Ursprung: Sverige'. Om du inte kan verifiera ursprunget, ersätt med: ägg (8–10 st per rätt), röda linser (500 g) eller kvarg (750 g) som säkra proteinkällor. Olivoljan i listan köps enbart om du inte redan har den hemma – den är dyr men används sparsamt."
+  "total_cost_sek": 559.05,
+  "estimated_protein_g_week": 730,
+  "notes": "⚠️ URSPRUNGSVARNING: Nötfärsen, kycklingbröstfilén och kycklingbenen saknar ursprungsangivelse i butikens erbjudandedata. Enligt profilen MÅSTE nöt, fläsk och kyckling vara av svenskt ursprung. Kontrollera förpackningarnas märkning i butik – leta efter svensk flagga eller texten 'Svensk' på förpackningen. Om ursprung ej kan bekräftas: byt ut nötfärsen mot t.ex. extra ägg eller röda linser, och kycklingprodukterna mot mer lax eller baljväxter. Laxsidan har inget angivet ursprung men räknas inte under köttkravet. Vildfångad pinklax (4-pack, 70,88 kr) är ett bra kompletterande proteinalternativ om köttursprung ej kan verifieras."
 }
