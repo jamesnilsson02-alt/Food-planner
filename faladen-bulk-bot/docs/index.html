@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fäladen Bulk Bot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #121212;
+      --surface:   #1e1e1e;
+      --surface2:  #2a2a2a;
+      --border:    #333;
+      --text:      #f0f0f0;
+      --muted:     #888;
+      --accent:    #4ade80;   /* protein-green */
+      --accent2:   #facc15;   /* highlight-yellow */
+      --danger:    #f87171;
+      --willys:    #e8002d;
+      --ica:       #e63025;
+      --radius:    14px;
+      --radius-sm: 8px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      min-height: 100dvh;
+    }
+
+    /* ── Header ── */
+    header {
+      padding: 20px 20px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+    .logo span { color: var(--accent); }
+    .week-badge {
+      font-size: 12px;
+      color: var(--muted);
+      background: var(--surface2);
+      padding: 4px 10px;
+      border-radius: 99px;
+    }
+    .strategy-banner {
+      margin-top: 12px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 12px 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    .strategy-icon { font-size: 22px; flex-shrink: 0; }
+    .strategy-text { display: flex; flex-direction: column; gap: 2px; }
+    .strategy-title {
+      font-weight: 600;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .pill {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 99px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .pill-willys { background: #3d0008; color: #ff6b6b; }
+    .pill-ica    { background: #3d0a08; color: #ff8a80; }
+    .pill-split  { background: #2a2500; color: var(--accent2); }
+    .pill-ok     { background: #0d2e1a; color: var(--accent); }
+    .strategy-reason { font-size: 12px; color: var(--muted); }
+
+    /* ── Stats row ── */
+    .stats-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 12px 20px 0;
+    }
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+    }
+    .stat-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+    .stat-value { font-size: 24px; font-weight: 700; margin-top: 2px; }
+    .stat-value.green { color: var(--accent); }
+    .stat-value.yellow { color: var(--accent2); }
+
+    /* ── Tabs ── */
+    .tabs {
+      display: flex;
+      gap: 0;
+      padding: 16px 20px 0;
+    }
+    .tab {
+      flex: 1;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 500;
+      padding: 10px 0;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .tab:first-child { border-radius: var(--radius) 0 0 var(--radius); border-right: none; }
+    .tab:last-child  { border-radius: 0 var(--radius) var(--radius) 0; }
+    .tab.active {
+      background: var(--accent);
+      color: #000;
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+
+    /* ── Content ── */
+    .content { padding: 16px 20px 100px; }
+    .panel { display: none; }
+    .panel.active { display: block; }
+
+    /* ── Section header ── */
+    .section-header {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--muted);
+      margin: 20px 0 10px;
+    }
+    .section-header:first-child { margin-top: 0; }
+
+    /* ── Shopping list ── */
+    .store-divider {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 16px 0 10px;
+    }
+    .store-tag {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 99px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      flex-shrink: 0;
+    }
+    .store-tag.willys { background: var(--willys); color: #fff; }
+    .store-tag.ica    { background: var(--ica);    color: #fff; }
+    .store-divider-line { flex: 1; height: 1px; background: var(--border); }
+
+    .item-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 8px;
+      cursor: pointer;
+      transition: opacity 0.2s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .item-card.checked { opacity: 0.4; }
+    .item-card.checked .item-name { text-decoration: line-through; color: var(--muted); }
+
+    .checkbox {
+      width: 22px;
+      height: 22px;
+      border: 2px solid var(--border);
+      border-radius: 6px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .item-card.checked .checkbox {
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+    .checkmark { display: none; color: #000; font-size: 13px; font-weight: 700; }
+    .item-card.checked .checkmark { display: block; }
+
+    .item-info { flex: 1; }
+    .item-name  { font-weight: 500; font-size: 14px; }
+    .item-amount { font-size: 12px; color: var(--muted); margin-top: 1px; }
+
+    .item-price {
+      font-weight: 600;
+      font-size: 14px;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+
+    .origin-warn {
+      font-size: 11px;
+      color: var(--accent2);
+      margin-top: 2px;
+    }
+
+    /* ── Meals ── */
+    .meal-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 14px;
+      overflow: hidden;
+    }
+    .meal-header {
+      padding: 16px 18px 12px;
+      cursor: pointer;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .meal-name { font-weight: 600; font-size: 16px; }
+    .meal-meta {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 6px;
+    }
+    .macro-pill {
+      background: var(--surface2);
+      padding: 3px 10px;
+      border-radius: 99px;
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--accent);
+    }
+    .expand-icon { font-size: 18px; color: var(--muted); flex-shrink: 0; transition: transform 0.2s; }
+    .meal-card.open .expand-icon { transform: rotate(180deg); }
+
+    .meal-body { display: none; padding: 0 18px 16px; border-top: 1px solid var(--border); padding-top: 14px; }
+    .meal-card.open .meal-body { display: block; }
+
+    .meal-description { font-size: 13px; color: var(--muted); margin-bottom: 14px; }
+
+    .steps-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--muted); margin-bottom: 8px; }
+    .step {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 10px;
+      align-items: flex-start;
+    }
+    .step-num {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #000;
+      font-size: 11px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .step-text { font-size: 13px; padding-top: 2px; }
+
+    /* ── Notes/warnings ── */
+    .notes-card {
+      background: #1f1a00;
+      border: 1px solid #4a3800;
+      border-radius: var(--radius-sm);
+      padding: 12px 16px;
+      font-size: 13px;
+      color: var(--accent2);
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    /* ── Loading / error ── */
+    .state-screen {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 40vh;
+      gap: 12px;
+      color: var(--muted);
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .state-icon { font-size: 40px; }
+    .state-title { font-size: 16px; font-weight: 600; color: var(--text); }
+    .state-sub { font-size: 13px; max-width: 260px; }
+
+    /* ── Bottom safe area ── */
+    @supports (padding-bottom: env(safe-area-inset-bottom)) {
+      .content { padding-bottom: calc(80px + env(safe-area-inset-bottom)); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div class="logo">Fäladen <span>Bulk</span> Bot 🏋️</div>
+    <div class="week-badge" id="weekBadge">–</div>
+  </div>
+  <div class="strategy-banner" id="strategyBanner" style="display:none">
+    <div class="strategy-icon" id="strategyIcon">🏪</div>
+    <div class="strategy-text">
+      <div class="strategy-title" id="strategyTitle">Laddar…</div>
+      <div class="strategy-reason" id="strategyReason"></div>
+    </div>
+  </div>
+</header>
+
+<div class="stats-row" id="statsRow" style="display:none">
+  <div class="stat-card">
+    <div class="stat-label">Veckokostnad</div>
+    <div class="stat-value yellow" id="statCost">–</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-label">Protein / vecka</div>
+    <div class="stat-value green" id="statProtein">–</div>
+  </div>
+</div>
+
+<div class="tabs">
+  <button class="tab active" onclick="switchTab('shopping')">🛒 Inköpslista</button>
+  <button class="tab" onclick="switchTab('meals')">🍽️ Recept & Makros</button>
+</div>
+
+<div class="content">
+  <div class="panel active" id="panel-shopping">
+    <div id="loadingScreen" class="state-screen">
+      <div class="state-icon">⏳</div>
+      <div class="state-title">Hämtar veckans matsedel…</div>
+    </div>
+    <div id="shoppingList" style="display:none"></div>
+  </div>
+
+  <div class="panel" id="panel-meals">
+    <div id="mealsContainer"></div>
+  </div>
+</div>
+
+<script>
+  let menuData = null;
+  // Persist checked state across page reloads
+  const getChecked = () => JSON.parse(localStorage.getItem('bulk_checked') || '{}');
+  const saveChecked = (obj) => localStorage.setItem('bulk_checked', JSON.stringify(obj));
+
+  function switchTab(name) {
+    document.querySelectorAll('.tab').forEach((t, i) => t.classList.toggle('active', ['shopping', 'meals'][i] === name));
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+    document.getElementById(`panel-${name}`).classList.add('active');
+  }
+
+  function pillForStore(store) {
+    if (!store) return '';
+    return `<span class="pill pill-${store}">${store === 'willys' ? 'Willys' : 'ICA'}</span>`;
+  }
+
+  function renderStrategy(data) {
+    const s = data.strategy;
+    const banner = document.getElementById('strategyBanner');
+    const icon = document.getElementById('strategyIcon');
+    const title = document.getElementById('strategyTitle');
+    const reason = document.getElementById('strategyReason');
+
+    banner.style.display = '';
+    if (s.split) {
+      icon.textContent = '✂️';
+      title.innerHTML = `Delad tur ${pillForStore(s.primary_store)} + sekundär`;
+      title.insertAdjacentHTML('beforeend', ` <span class="pill pill-split">Kupp-läge</span>`);
+      reason.textContent = s.split_reason || `Sparar ~${s.split_savings_sek} kr`;
+    } else {
+      icon.textContent = '🏪';
+      title.innerHTML = `Samlad tur – ${pillForStore(s.primary_store)}`;
+      title.insertAdjacentHTML('beforeend', ` <span class="pill pill-ok">Effektivt</span>`);
+      reason.textContent = 'All handel på ett ställe denna vecka.';
+    }
+  }
+
+  function renderShopping(data) {
+    const list = document.getElementById('shoppingList');
+    const checked = getChecked();
+    let html = '';
+
+    function itemsHtml(items, store) {
+      return items.map((item, i) => {
+        const id = `${store}_${i}`;
+        const isChecked = checked[id] || false;
+        const originWarn = item.origin_flag && item.origin_flag.includes('⚠️')
+          ? `<div class="origin-warn">⚠️ Ursprung oklart – verifiera i butik</div>` : '';
+        const price = item.price_sek ? `${Number(item.price_sek).toFixed(0)} kr` : '';
+        return `
+          <div class="item-card${isChecked ? ' checked' : ''}" onclick="toggleItem('${id}', this)">
+            <div class="checkbox"><span class="checkmark">✓</span></div>
+            <div class="item-info">
+              <div class="item-name">${item.name}</div>
+              <div class="item-amount">${item.amount || ''}</div>
+              ${originWarn}
+            </div>
+            ${price ? `<div class="item-price">${price}</div>` : ''}
+          </div>`;
+      }).join('');
+    }
+
+    const offerItems = data.shopping_list.offer_items || [];
+    const pantryItems = data.shopping_list.pantry_items || [];
+
+    if (offerItems.length) {
+      html += `<div class="store-divider">
+        <span class="store-tag willys">🏷️ Veckans extrapriser</span>
+        <div class="store-divider-line"></div>
+      </div>`;
+      html += itemsHtml(offerItems, 'offer');
+    }
+
+    if (pantryItems.length) {
+      html += `<div class="store-divider" style="margin-top:24px">
+        <span class="store-tag" style="background:var(--surface2);color:var(--text2)">🥫 Basvaror att fylla på</span>
+        <div class="store-divider-line"></div>
+      </div>`;
+      html += `<div style="font-size:12px;color:var(--text3);margin-bottom:10px">
+        Dessa ingår inte i veckokostnaden – checka av det du redan har hemma
+      </div>`;
+      html += itemsHtml(pantryItems, 'pantry');
+    }
+
+    if (data.notes) {
+      html += `<div class="notes-card" style="margin-top:20px">
+        <span>⚠️</span><div>${data.notes}</div>
+      </div>`;
+    }
+
+    list.innerHTML = html;
+    list.style.display = '';
+    document.getElementById('loadingScreen').style.display = 'none';
+  }
+
+  function toggleItem(id, el) {
+    const checked = getChecked();
+    checked[id] = !checked[id];
+    saveChecked(checked);
+    el.classList.toggle('checked', checked[id]);
+  }
+
+  function renderMeals(data) {
+    const container = document.getElementById('mealsContainer');
+    if (!data.meals || !data.meals.length) {
+      container.innerHTML = `<div class="state-screen"><div class="state-icon">🍽️</div><div class="state-title">Inga recept ännu</div></div>`;
+      return;
+    }
+    container.innerHTML = data.meals.map((meal, i) => `
+      <div class="meal-card" id="meal-${i}">
+        <div class="meal-header" onclick="toggleMeal(${i})">
+          <div>
+            <div class="meal-name">${meal.name}</div>
+            <div class="meal-meta">
+              <span class="macro-pill">💪 ${meal.protein_g_per_serving || '–'}g protein/portion</span>
+              <span class="macro-pill">🍽️ ${meal.servings || '–'} portioner</span>
+            </div>
+          </div>
+          <div class="expand-icon">▾</div>
+        </div>
+        <div class="meal-body">
+          <div class="meal-description">${meal.description || ''}</div>
+          <div class="steps-label">Tillagning</div>
+          ${(meal.instructions || []).map((step, j) => `
+            <div class="step">
+              <div class="step-num">${j + 1}</div>
+              <div class="step-text">${step}</div>
+            </div>`).join('')}
+        </div>
+      </div>`).join('');
+  }
+
+  function toggleMeal(i) {
+    document.getElementById(`meal-${i}`).classList.toggle('open');
+  }
+
+  async function loadMenu() {
+    try {
+      const resp = await fetch('current_menu.json?t=' + Date.now());
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      menuData = await resp.json();
+
+      // Week badge
+      document.getElementById('weekBadge').textContent = `v. ${menuData.week || '–'}`;
+
+      // Stats
+      const statsRow = document.getElementById('statsRow');
+      statsRow.style.display = '';
+      document.getElementById('statCost').textContent = menuData.total_cost_sek
+        ? `${Math.round(menuData.total_cost_sek)} kr` : '–';
+      document.getElementById('statProtein').textContent = menuData.estimated_protein_g_week
+        ? `${Math.round(menuData.estimated_protein_g_week / 7)}g/dag` : '–';
+
+      renderStrategy(menuData);
+      renderShopping(menuData);
+      renderMeals(menuData);
+    } catch (e) {
+      document.getElementById('loadingScreen').innerHTML = `
+        <div class="state-screen">
+          <div class="state-icon">📭</div>
+          <div class="state-title">Ingen matsedel än</div>
+          <div class="state-sub">Kör GitHub Action manuellt för att generera veckans matsedel, eller vänta till måndag.</div>
+        </div>`;
+    }
+  }
+
+  loadMenu();
+</script>
+</body>
+</html>
