@@ -1,5 +1,5 @@
 {
-  "week": "2026-07-06",
+  "week": "2026-07-13",
   "strategy": {
     "primary_store": "willys",
     "split": false,
@@ -8,141 +8,55 @@
   },
   "meals": [
     {
-      "name": "Ugnsrostad laxfilé med basmatiris och broccoli",
-      "description": "Saftiga laxfiléer ugnsrostade med citron och örter, serverade med fluffigt basmatiris och ångad broccoli. Klassisk meal-prep-favorit som håller sig bra i kylen.",
-      "protein_g_per_serving": 45,
+      "name": "Ugnsrostad kycklingbröstfilé med paprikamix och ris",
+      "description": "Klassisk meal-prep-favorit med saftig kyckling och rostad paprika. Enkel, proteinrik och smakar bra kall nästa dag.",
+      "protein_g_per_serving": 48,
       "servings": 4,
       "instructions": [
-        "Sätt ugnen på 200°C. Lägg laxfiléerna i en ugnsform.",
-        "Krydda med salt, peppar, vitlök och ett stänk olja.",
-        "Koka basmatiris enligt förpackning, ca 12 min.",
-        "Ångkoka eller koka broccoli 3–4 min tills mjuk men fast.",
-        "Ugnsbaka laxen 15–18 min tills genomstekt.",
-        "Fördela i matlådor: lax, ris och broccoli. Klart."
+        "Sätt ugnen på 200°C.",
+        "Krydda kycklingbröstfiléerna med grillkrydda, salt och peppar.",
+        "Lägg kyckling och paprikamix i en ugnsform, ringla över rapsolja.",
+        "Rosta i ugnen 25–30 min tills kyckling är genomstekt.",
+        "Koka ris enligt förpackning under tiden.",
+        "Portionera kyckling, paprika och ris i matlådor."
       ],
       "ingredients": [
         {
-          "name": "Laxfilé 4-pack",
-          "amount": "1 förpackning",
+          "name": "Kycklingbröstfilé",
+          "amount": "1 förp (~800g)",
           "store": "willys",
-          "price_sek": 94.54,
+          "price_sek": 109.0,
           "origin_flag": "⚠️ Ursprung okänt"
         },
         {
-          "name": "Basmatiris",
-          "amount": "1 förpackning",
-          "store": "willys",
-          "price_sek": 34.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Broccoli 250g",
-          "amount": "2 förpackningar",
-          "store": "willys",
-          "price_sek": 31.8,
-          "origin_flag": null
-        },
-        {
-          "name": "Rapsolja",
-          "amount": "2 msk",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Vitlök",
-          "amount": "3 klyftor",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Salt och peppar",
-          "amount": "efter smak",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Citron",
-          "amount": "1 st",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        }
-      ]
-    },
-    {
-      "name": "Kryddkorvsgryta med vitkål och jasminris",
-      "description": "Mustig och mättande gryta med skivade kryddkorvar, mjuk vitkål och smakrik tomatsås. Enkelt att göra i stor sats och smakar ännu bättre dagen efter.",
-      "protein_g_per_serving": 35,
-      "servings": 5,
-      "instructions": [
-        "Skiva kryddkorvar i bitar och bryn i gryta med lite olja.",
-        "Strimla vitkålen grovt och lägg i grytan, rör om.",
-        "Tillsätt burktomater, buljong, vitlök och paprikapulver.",
-        "Låt sjuda på medelvärme ca 25 min tills kålen är mjuk.",
-        "Koka jasminris enligt förpackning parallellt.",
-        "Smaka av med salt och peppar. Portionera i matlådor."
-      ],
-      "ingredients": [
-        {
-          "name": "Kryddkorvar",
-          "amount": "1 förpackning",
-          "store": "willys",
-          "price_sek": 25.5,
-          "origin_flag": "⚠️ Ursprung okänt"
-        },
-        {
-          "name": "Hel färsk vitkål",
-          "amount": "1 st",
+          "name": "Paprikamix 400g",
+          "amount": "1 förp",
           "store": "willys",
           "price_sek": 24.9,
           "origin_flag": null
         },
         {
-          "name": "Jasminris",
-          "amount": "1 förpackning",
+          "name": "Grillkrydda",
+          "amount": "2 msk",
           "store": "willys",
-          "price_sek": 31.5,
+          "price_sek": 25.9,
           "origin_flag": null
         },
         {
-          "name": "Burktomater",
-          "amount": "2 burkar",
-          "store": "pantry",
-          "price_sek": null,
+          "name": "Rapsolja",
+          "amount": "2 msk",
+          "store": "willys",
+          "price_sek": 23.56,
           "origin_flag": null
         },
         {
-          "name": "Hönsbuljong",
+          "name": "Ris",
           "amount": "4 dl",
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
         },
         {
-          "name": "Paprikapulver",
-          "amount": "2 tsk",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Vitlök",
-          "amount": "4 klyftor",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Rapsolja",
-          "amount": "2 msk",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
           "name": "Salt och peppar",
           "amount": "efter smak",
           "store": "pantry",
@@ -152,45 +66,45 @@
       ]
     },
     {
-      "name": "Halloumipanna med champinjoner, pasta och grekisk yoghurt",
-      "description": "Grillad halloumi och stekta champinjoner blandas med kokt pasta och toppas med tjock grekisk yoghurt. Vegetarisk, proteinrik och redo på 20 minuter.",
-      "protein_g_per_serving": 38,
-      "servings": 4,
+      "name": "Stuvad skivad fläskkarré med spetskål och kassler",
+      "description": "Rejäl grytarätt med fläskkarré och spetskål – klassisk husmanskost som är billig, mättande och enkel att meal-prepa.",
+      "protein_g_per_serving": 42,
+      "servings": 5,
       "instructions": [
-        "Koka pasta korta former enligt förpackning, spara lite pastavatten.",
-        "Skiva halloumi och stek gyllenbrun i torr panna, ca 2 min/sida.",
-        "Stek champinjoner i samma panna med smör, salt och vitlök.",
-        "Blanda pasta med champinjoner och ett stänk pastavatten.",
-        "Lägg halloumin ovanpå och klicka på grekisk yoghurt.",
-        "Smaka av med peppar och citron. Portionera i lådor."
+        "Strimla spetskålen grovt och skär karrén i mindre bitar.",
+        "Bryn karré och kassler i omgångar i en stekpanna med lite rapsolja.",
+        "Lägg allt i en stor gryta med spetskål, lök och vitlök.",
+        "Häll i 3 dl vatten eller buljong, krydda med salt, peppar och paprikapulver.",
+        "Låt puttra under lock på låg värme i 30 min.",
+        "Servera med kokt potatis eller ris."
       ],
       "ingredients": [
         {
-          "name": "Halloumi",
-          "amount": "2 förpackningar",
+          "name": "Skivad fläskkarré",
+          "amount": "1 förp (~600g)",
           "store": "willys",
-          "price_sek": 53.8,
+          "price_sek": 94.54,
+          "origin_flag": "⚠️ Ursprung okänt"
+        },
+        {
+          "name": "Kassler",
+          "amount": "1 förp (~400g)",
+          "store": "willys",
+          "price_sek": 85.08,
+          "origin_flag": "⚠️ Ursprung okänt"
+        },
+        {
+          "name": "Hel spetskål",
+          "amount": "1 st",
+          "store": "willys",
+          "price_sek": 29.9,
           "origin_flag": null
         },
         {
-          "name": "Champinjoner 250g",
-          "amount": "2 förpackningar",
-          "store": "willys",
-          "price_sek": 33.8,
-          "origin_flag": null
-        },
-        {
-          "name": "Pasta korta former",
-          "amount": "2 förpackningar",
-          "store": "willys",
-          "price_sek": 16.84,
-          "origin_flag": null
-        },
-        {
-          "name": "Grekisk yoghurt",
-          "amount": "2 förpackningar",
-          "store": "willys",
-          "price_sek": 19.8,
+          "name": "Lök",
+          "amount": "2 st",
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         },
         {
@@ -198,85 +112,6 @@
           "amount": "3 klyftor",
           "store": "pantry",
           "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Smör",
-          "amount": "2 msk",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Salt och peppar",
-          "amount": "efter smak",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Citron",
-          "amount": "1 st",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        }
-      ]
-    },
-    {
-      "name": "Färska hamburgare med grillost och potatissallad",
-      "description": "Saftiga färska hamburgare stekta i panna, toppade med smält grillost och serverade med färdig potatissallad och orientaliskt bröd. Snabb veckoavslutning med hög proteinandel.",
-      "protein_g_per_serving": 42,
-      "servings": 4,
-      "instructions": [
-        "Ta ut hamburgarna ur kylen 10 min innan stekning.",
-        "Stek på hög värme i stekpanna ca 4 min per sida.",
-        "Lägg grillost på burgarna sista minuten, lägg lock på pannan.",
-        "Värm orientaliska bröd i torr panna 1 min per sida.",
-        "Servera burgare i bröd med potatissallad vid sidan.",
-        "Klart – portionera kvarvarande burgare i matlådor."
-      ],
-      "ingredients": [
-        {
-          "name": "Färska hamburgare 4-pack",
-          "amount": "1 förpackning",
-          "store": "willys",
-          "price_sek": 49.9,
-          "origin_flag": "⚠️ Ursprung okänt"
-        },
-        {
-          "name": "Grillost",
-          "amount": "2 förpackningar",
-          "store": "willys",
-          "price_sek": 35.8,
-          "origin_flag": null
-        },
-        {
-          "name": "Orientaliskt bröd 4-pack",
-          "amount": "1 förpackning",
-          "store": "willys",
-          "price_sek": 9.36,
-          "origin_flag": null
-        },
-        {
-          "name": "Potatissallad",
-          "amount": "1 förpackning",
-          "store": "willys",
-          "price_sek": 14.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Isbergssallad",
-          "amount": "1 st",
-          "store": "willys",
-          "price_sek": 24.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Kvisttomater",
-          "amount": "500 g",
-          "store": "willys",
-          "price_sek": 29.9,
           "origin_flag": null
         },
         {
@@ -287,8 +122,159 @@
           "origin_flag": null
         },
         {
+          "name": "Grönsaksbuljong",
+          "amount": "3 dl",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Salt, peppar, paprikapulver",
+          "amount": "efter smak",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Potatis eller ris",
+          "amount": "600g / 4 dl",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        }
+      ]
+    },
+    {
+      "name": "Pastasås med laxfilé och fettuccine",
+      "description": "Laxpasta med enkel tomatsås – en välbalanserad och proteinrik rätt som meal-prepas på under 30 minuter.",
+      "protein_g_per_serving": 38,
+      "servings": 4,
+      "instructions": [
+        "Koka fettuccine enligt förpackning, al dente.",
+        "Dela laxfilén i bitar, salta och peppra.",
+        "Stek laxbitarna i rapsolja 3–4 min per sida tills de är genomstekta.",
+        "Värm pastasåsen i en kastrull, blanda ner laxbitarna.",
+        "Blanda pasta med sås och lax i en stor skål.",
+        "Portionera i matlådor, toppa med riven västerbottensost."
+      ],
+      "ingredients": [
+        {
+          "name": "Laxfilé i bit refreshed",
+          "amount": "1 förp (~500g)",
+          "store": "willys",
+          "price_sek": 94.54,
+          "origin_flag": null
+        },
+        {
+          "name": "Fettuccine",
+          "amount": "1 förp (~500g)",
+          "store": "willys",
+          "price_sek": 28.29,
+          "origin_flag": null
+        },
+        {
+          "name": "Pastasås",
+          "amount": "1 burk",
+          "store": "willys",
+          "price_sek": 34.92,
+          "origin_flag": null
+        },
+        {
+          "name": "Riven västerbottensost",
+          "amount": "1 förp",
+          "store": "willys",
+          "price_sek": 42.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Rapsolja",
+          "amount": "2 msk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
           "name": "Salt och peppar",
           "amount": "efter smak",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        }
+      ]
+    },
+    {
+      "name": "Kikärtsgryta med hushållsost och turkisk yoghurt",
+      "description": "Rejäl vegetarisk gryta med kikärter och kryddor – billig, proteinrik och perfekt för de dagar köttet är slut.",
+      "protein_g_per_serving": 32,
+      "servings": 4,
+      "instructions": [
+        "Fräs lök och vitlök i olja tills mjukt.",
+        "Tillsätt burktomater, kikärter och kryddor (spiskummin, paprika, chilipulver).",
+        "Låt puttra i 20 min på medelvärme, smaka av med salt.",
+        "Tärna hushållsost och rör ner i grytan sista 5 min.",
+        "Servera med ris eller pitabröd.",
+        "Toppa varje portion med en klick turkisk yoghurt."
+      ],
+      "ingredients": [
+        {
+          "name": "Naturella kikärter",
+          "amount": "3 burkar",
+          "store": "willys",
+          "price_sek": 30.93,
+          "origin_flag": null
+        },
+        {
+          "name": "Hushållsost",
+          "amount": "1 förp",
+          "store": "willys",
+          "price_sek": 109.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Turkisk yoghurt",
+          "amount": "1 förp",
+          "store": "willys",
+          "price_sek": 18.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Lök",
+          "amount": "2 st",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Vitlök",
+          "amount": "3 klyftor",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Krossade tomater",
+          "amount": "1 burk (400g)",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Rapsolja",
+          "amount": "2 msk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Spiskummin, paprikapulver, chilipulver, salt",
+          "amount": "efter smak",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Ris eller pitabröd",
+          "amount": "4 dl / 1 förp",
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
@@ -299,162 +285,163 @@
   "shopping_list": {
     "offer_items": [
       {
-        "name": "Laxfilé 4-pack",
-        "amount": "1 förpackning",
+        "name": "Kycklingbröstfilé",
+        "amount": "1 förp (~800g)",
+        "store": "willys",
+        "price_sek": 109.0,
+        "checked": false
+      },
+      {
+        "name": "Paprikamix 400g",
+        "amount": "1 förp",
+        "store": "willys",
+        "price_sek": 24.9,
+        "checked": false
+      },
+      {
+        "name": "Grillkrydda",
+        "amount": "1 förp",
+        "store": "willys",
+        "price_sek": 25.9,
+        "checked": false
+      },
+      {
+        "name": "Rapsolja",
+        "amount": "1 flaska",
+        "store": "willys",
+        "price_sek": 23.56,
+        "checked": false
+      },
+      {
+        "name": "Skivad fläskkarré",
+        "amount": "1 förp (~600g)",
         "store": "willys",
         "price_sek": 94.54,
         "checked": false
       },
       {
-        "name": "Basmatiris",
-        "amount": "1 förpackning",
+        "name": "Kassler",
+        "amount": "1 förp (~400g)",
         "store": "willys",
-        "price_sek": 34.9,
+        "price_sek": 85.08,
         "checked": false
       },
       {
-        "name": "Broccoli 250g",
-        "amount": "2 förpackningar",
-        "store": "willys",
-        "price_sek": 31.8,
-        "checked": false
-      },
-      {
-        "name": "Kryddkorvar",
-        "amount": "1 förpackning",
-        "store": "willys",
-        "price_sek": 25.5,
-        "checked": false
-      },
-      {
-        "name": "Hel färsk vitkål",
+        "name": "Hel spetskål",
         "amount": "1 st",
-        "store": "willys",
-        "price_sek": 24.9,
-        "checked": false
-      },
-      {
-        "name": "Jasminris",
-        "amount": "1 förpackning",
-        "store": "willys",
-        "price_sek": 31.5,
-        "checked": false
-      },
-      {
-        "name": "Halloumi",
-        "amount": "2 förpackningar",
-        "store": "willys",
-        "price_sek": 53.8,
-        "checked": false
-      },
-      {
-        "name": "Champinjoner 250g",
-        "amount": "2 förpackningar",
-        "store": "willys",
-        "price_sek": 33.8,
-        "checked": false
-      },
-      {
-        "name": "Pasta korta former",
-        "amount": "2 förpackningar",
-        "store": "willys",
-        "price_sek": 16.84,
-        "checked": false
-      },
-      {
-        "name": "Grekisk yoghurt",
-        "amount": "2 förpackningar",
-        "store": "willys",
-        "price_sek": 19.8,
-        "checked": false
-      },
-      {
-        "name": "Färska hamburgare 4-pack",
-        "amount": "1 förpackning",
-        "store": "willys",
-        "price_sek": 49.9,
-        "checked": false
-      },
-      {
-        "name": "Grillost",
-        "amount": "2 förpackningar",
-        "store": "willys",
-        "price_sek": 35.8,
-        "checked": false
-      },
-      {
-        "name": "Orientaliskt bröd 4-pack",
-        "amount": "1 förpackning",
-        "store": "willys",
-        "price_sek": 9.36,
-        "checked": false
-      },
-      {
-        "name": "Potatissallad",
-        "amount": "1 förpackning",
-        "store": "willys",
-        "price_sek": 14.9,
-        "checked": false
-      },
-      {
-        "name": "Isbergssallad",
-        "amount": "1 st",
-        "store": "willys",
-        "price_sek": 24.9,
-        "checked": false
-      },
-      {
-        "name": "Kvisttomater",
-        "amount": "500 g",
         "store": "willys",
         "price_sek": 29.9,
+        "checked": false
+      },
+      {
+        "name": "Laxfilé i bit refreshed",
+        "amount": "1 förp (~500g)",
+        "store": "willys",
+        "price_sek": 94.54,
+        "checked": false
+      },
+      {
+        "name": "Fettuccine",
+        "amount": "1 förp (~500g)",
+        "store": "willys",
+        "price_sek": 28.29,
+        "checked": false
+      },
+      {
+        "name": "Pastasås",
+        "amount": "1 burk",
+        "store": "willys",
+        "price_sek": 34.92,
+        "checked": false
+      },
+      {
+        "name": "Riven västerbottensost",
+        "amount": "1 förp",
+        "store": "willys",
+        "price_sek": 42.9,
+        "checked": false
+      },
+      {
+        "name": "Naturella kikärter",
+        "amount": "3 burkar",
+        "store": "willys",
+        "price_sek": 30.93,
+        "checked": false
+      },
+      {
+        "name": "Hushållsost",
+        "amount": "1 förp",
+        "store": "willys",
+        "price_sek": 109.9,
+        "checked": false
+      },
+      {
+        "name": "Turkisk yoghurt",
+        "amount": "1 förp",
+        "store": "willys",
+        "price_sek": 18.9,
         "checked": false
       }
     ],
     "pantry_items": [
       {
-        "name": "Rapsolja",
-        "amount": "5 msk",
+        "name": "Ris",
+        "amount": "8 dl",
+        "checked": false
+      },
+      {
+        "name": "Potatis",
+        "amount": "600g",
+        "checked": false
+      },
+      {
+        "name": "Lök",
+        "amount": "4 st",
         "checked": false
       },
       {
         "name": "Vitlök",
-        "amount": "10 klyftor",
+        "amount": "6 klyftor",
         "checked": false
       },
       {
-        "name": "Salt och peppar",
+        "name": "Grönsaksbuljong",
+        "amount": "3 dl",
+        "checked": false
+      },
+      {
+        "name": "Krossade tomater",
+        "amount": "1 burk (400g)",
+        "checked": false
+      },
+      {
+        "name": "Salt",
         "amount": "efter smak",
         "checked": false
       },
       {
-        "name": "Citron",
-        "amount": "2 st",
-        "checked": false
-      },
-      {
-        "name": "Burktomater",
-        "amount": "2 burkar",
-        "checked": false
-      },
-      {
-        "name": "Hönsbuljong",
-        "amount": "4 dl",
+        "name": "Svartpeppar",
+        "amount": "efter smak",
         "checked": false
       },
       {
         "name": "Paprikapulver",
-        "amount": "2 tsk",
+        "amount": "efter smak",
         "checked": false
       },
       {
-        "name": "Smör",
-        "amount": "2 msk",
+        "name": "Chilipulver",
+        "amount": "efter smak",
+        "checked": false
+      },
+      {
+        "name": "Spiskummin",
+        "amount": "efter smak",
         "checked": false
       }
     ]
   },
-  "total_cost_sek": 531.14,
-  "estimated_protein_g_week": 640,
-  "notes": "⚠️ Ursprungsvarning: Laxfilé 4-pack, Kryddkorvar och Färska hamburgare saknar tydlig ursprungsmärkning i butikens data. Laxen är sannolikt norsk/internationell – inte ett krav på svenskt ursprung för fisk, men noteras. Kryddkorvar och hamburgare kan innehålla fläsk/nöt av okänt ursprung – om strikt svenskt ursprung krävs, byt ut mot: ytterligare ett paket Halloumi, mer Laxfilé i bitar (59,90 kr) eller fyll på med ägg och kvarg från mejeriavdelningen."
+  "total_cost_sek": 753.36,
+  "estimated_protein_g_week": 720,
+  "notes": "⚠️ Ursprung okänt för Kycklingbröstfilé, Skivad fläskkarré och Kassler – ingen ursprungsmärkning tillgänglig i butikens erbjudandedata. Dessa är fläsk- och kycklingprodukter som KAN vara svenska men kan inte bekräftas. Om du vill vara säker på svenskt ursprung: byt ut mot ägg (proteinkälla), kvarg eller utöka kikärtsgrytan. Notera att total_cost_sek landar på 753 kr, något över 625 kr-målet – detta beror på att veckans extrapriser saknar tydliga lågpris-proteinkällor. Överväg att skippa hushållsosten (109,90 kr) och ersätta med ytterligare kikärter + Grekisk yoghurt (9,90 kr) om budget är hårt satt."
 }
