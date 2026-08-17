@@ -1,5 +1,5 @@
 {
-  "week": "2026-08-10",
+  "week": "2026-08-17",
   "strategy": {
     "primary_store": "willys",
     "split": false,
@@ -8,25 +8,31 @@
   },
   "meals": [
     {
-      "name": "Köttfärssås med spaghetti",
-      "description": "Klassisk bolognese på nötfärs med krossade tomater och kryddor. Enkel att göra stor sats av och håller sig bra i kyl hela veckan.",
+      "name": "Kycklingcurry med basmatiris",
+      "description": "Krämig curry på salladskyckling och currypasta – enkel att göra i stor sats och smakar ännu bättre dagen efter.",
       "protein_g_per_serving": 42,
       "servings": 5,
       "instructions": [
-        "Hacka lök och vitlök, fräs mjukt i olja i en stor gryta.",
-        "Tillsätt nötfärsen, bryn ordentligt på hög värme.",
-        "Rör ner krossade tomater, tomatpuré, salt, peppar och oregano.",
-        "Låt puttra på låg värme i 25–30 minuter, rör om ibland.",
-        "Koka spaghetti enligt förpackning, sila av.",
-        "Portionera sås och pasta i matlådor, toppa med riven Präst om du vill."
+        "Strimla salladskyckling i grova bitar.",
+        "Fräs currypasta i olja 1 minut i stor gryta.",
+        "Tillsätt kyckling, rör om och bryn 3–4 minuter.",
+        "Häll i kokosmjölk och finkrossade tomater, koka 15 minuter.",
+        "Smaka av med salt, servera med kokt basmatiris."
       ],
       "ingredients": [
         {
-          "name": "Nötfärs",
-          "amount": "800 g",
+          "name": "Salladskyckling",
+          "amount": "2 förp (~800 g)",
           "store": "willys",
-          "price_sek": 99.9,
+          "price_sek": 113.36,
           "origin_flag": "⚠️ Ursprung okänt"
+        },
+        {
+          "name": "Currypasta",
+          "amount": "1 förp",
+          "store": "willys",
+          "price_sek": 18.83,
+          "origin_flag": null
         },
         {
           "name": "Finkrossade tomater 3-pack",
@@ -36,17 +42,68 @@
           "origin_flag": null
         },
         {
-          "name": "Spaghetti",
-          "amount": "500 g",
+          "name": "Basmatiris",
+          "amount": "1 förp",
           "store": "willys",
-          "price_sek": 13.5,
+          "price_sek": 34.9,
           "origin_flag": null
         },
         {
-          "name": "Tomatpuré",
+          "name": "Kokosmjölk",
+          "amount": "400 ml",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Rapsolja",
+          "amount": "2 msk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Salt",
+          "amount": "efter smak",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        }
+      ]
+    },
+    {
+      "name": "Fläskytterfil med linsgryta",
+      "description": "Saftig fläskytterfil i skivor serverad med en mustig linsgryta – proteinrik, billig och mättande.",
+      "protein_g_per_serving": 48,
+      "servings": 5,
+      "instructions": [
+        "Skär fläskytterfil i portionsskivor, salta och peppra.",
+        "Bryn skivorna i stekpanna, ca 3 min per sida, lägg åt sidan.",
+        "Koka röda linser med vatten, tärnad lök och vitlök 15 minuter.",
+        "Rör ner plommontomater i bitar och krydda med spiskummin och paprika.",
+        "Lägg fläsket ovanpå linserna och låt allt dra ihop 5 minuter.",
+        "Servera direkt ur grytan."
+      ],
+      "ingredients": [
+        {
+          "name": "Fläskytterfilé",
+          "amount": "1 kg",
+          "store": "willys",
+          "price_sek": 89.81,
+          "origin_flag": "⚠️ Ursprung okänt"
+        },
+        {
+          "name": "Röda linser",
           "amount": "1 förp",
           "store": "willys",
-          "price_sek": 14.1,
+          "price_sek": 26.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Plommontomater 500g",
+          "amount": "1 förp",
+          "store": "willys",
+          "price_sek": 29.9,
           "origin_flag": null
         },
         {
@@ -64,14 +121,21 @@
           "origin_flag": null
         },
         {
-          "name": "Olivolja",
-          "amount": "2 msk",
+          "name": "Spiskummin",
+          "amount": "1 tsk",
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
         },
         {
-          "name": "Salt, peppar, oregano",
+          "name": "Paprikapulver",
+          "amount": "1 tsk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Salt och peppar",
           "amount": "efter smak",
           "store": "pantry",
           "price_sek": null,
@@ -80,38 +144,38 @@
       ]
     },
     {
-      "name": "Ugnsrostad fläskkarré med jasminris",
-      "description": "Saftig fläskkarré marinerad i senap och kryddor, ugnsrostad och serverad med fluffigt jasminris. Perfekt för meal-prep.",
-      "protein_g_per_serving": 45,
-      "servings": 5,
+      "name": "Torskspaghetti med tomatsås",
+      "description": "Klassisk pasta med mjäll torskfilé inrörd i en enkel tomatsås – snabb att laga och perfekt att portionera.",
+      "protein_g_per_serving": 38,
+      "servings": 4,
       "instructions": [
-        "Blanda senap, vitlök, salt, peppar och olja till en marinad.",
-        "Gnid in karréskivorna ordentligt, låt vila 15 min.",
-        "Lägg i ugnsform, rosta i 200°C i 25–30 minuter.",
-        "Koka jasminris enligt förpackning under tiden.",
-        "Skär upp köttet, portionera med ris i matlådor.",
-        "Häll lite av stekskyn över köttet för extra smak."
+        "Koka spaghetti enligt förpackning, spara 1 dl pastavatten.",
+        "Fräs lök och vitlök i olja tills mjuka.",
+        "Tillsätt finkrossade tomater, koka 10 minuter på svag värme.",
+        "Bryt torskfilé i bitar, rör ner i såsen och koka 5 minuter.",
+        "Blanda pasta med sås, späd med pastavatten vid behov.",
+        "Smaka av med salt, peppar och torkad basilika."
       ],
       "ingredients": [
         {
-          "name": "Ekologisk fläskkarré",
-          "amount": "1 kg",
+          "name": "Torskfilé i bitar",
+          "amount": "1 förp (~500 g)",
           "store": "willys",
-          "price_sek": 52.9,
-          "origin_flag": "⚠️ Ursprung okänt"
-        },
-        {
-          "name": "Jasminris",
-          "amount": "1 kg",
-          "store": "willys",
-          "price_sek": 42.9,
+          "price_sek": 69.9,
           "origin_flag": null
         },
         {
-          "name": "Senap",
-          "amount": "1 förp",
+          "name": "Spaghetti",
+          "amount": "1 förp (500 g)",
           "store": "willys",
-          "price_sek": 15.99,
+          "price_sek": 13.5,
+          "origin_flag": null
+        },
+        {
+          "name": "Lök",
+          "amount": "1 st",
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         },
         {
@@ -122,7 +186,72 @@
           "origin_flag": null
         },
         {
+          "name": "Finkrossade tomater",
+          "amount": "400 g (från 3-pack)",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
           "name": "Olivolja",
+          "amount": "3 msk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Torkad basilika",
+          "amount": "1 tsk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Salt och peppar",
+          "amount": "efter smak",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        }
+      ]
+    },
+    {
+      "name": "Ugnsbakad fläskkotlett med vita bönor och senap",
+      "description": "Saftiga fläskkotletter ugnsrostade och serverade med vita bönor i tomatsås – enkelt, rustikt och proteinpackat.",
+      "protein_g_per_serving": 46,
+      "servings": 4,
+      "instructions": [
+        "Sätt ugnen på 200°C, salta och peppra kotletterna.",
+        "Bryn kotletter i stekpanna 2 min per sida tills gyllene.",
+        "Lägg i ugnsform, bred senap ovanpå varje kotlett.",
+        "Öppna vita bönor, häll runt kotletterna i formen.",
+        "Ugna 20 minuter tills genomstekta och saften är klar.",
+        "Låt vila 5 minuter före servering."
+      ],
+      "ingredients": [
+        {
+          "name": "Fläskkotletter",
+          "amount": "1 förp (~800 g)",
+          "store": "willys",
+          "price_sek": 93.9,
+          "origin_flag": "⚠️ Ursprung okänt"
+        },
+        {
+          "name": "Vita bönor i tomatsås",
+          "amount": "4 burkar",
+          "store": "willys",
+          "price_sek": 37.44,
+          "origin_flag": null
+        },
+        {
+          "name": "Senap",
+          "amount": "3 msk",
+          "store": "willys",
+          "price_sek": 15.99,
+          "origin_flag": null
+        },
+        {
+          "name": "Rapsolja",
           "amount": "2 msk",
           "store": "pantry",
           "price_sek": null,
@@ -134,150 +263,6 @@
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
-        },
-        {
-          "name": "Paprikapulver",
-          "amount": "1 tsk",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        }
-      ]
-    },
-    {
-      "name": "Kycklingfilé med vitlök och kvisttomater",
-      "description": "Stekpannestekt kycklingfilé med rostade kvisttomater och vitlök. Serveras med fullkornsmakaroner för extra kolhydrater och protein.",
-      "protein_g_per_serving": 48,
-      "servings": 4,
-      "instructions": [
-        "Krydda kycklingfiléerna med salt, peppar och paprikapulver.",
-        "Stek på hög värme i olja, 4–5 min per sida tills genomstekt.",
-        "Lägg kvisttomaterna i pannan sista 5 minuterna, låt mjukna.",
-        "Koka fullkornsmakaroner enligt förpackning, sila av.",
-        "Skiva kycklingen, portionera med pasta och tomater.",
-        "Pressa lite citron över toppen om du har."
-      ],
-      "ingredients": [
-        {
-          "name": "Kycklingfilé",
-          "amount": "800 g",
-          "store": "willys",
-          "price_sek": 84.9,
-          "origin_flag": "⚠️ Ursprung okänt"
-        },
-        {
-          "name": "Kvisttomater",
-          "amount": "500 g",
-          "store": "willys",
-          "price_sek": 29.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Fullkornsmakaroner",
-          "amount": "500 g",
-          "store": "willys",
-          "price_sek": 22.61,
-          "origin_flag": null
-        },
-        {
-          "name": "Olivolja",
-          "amount": "3 msk",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Vitlök",
-          "amount": "4 klyftor",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Salt, peppar, paprikapulver",
-          "amount": "efter smak",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Citron",
-          "amount": "1 st",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        }
-      ]
-    },
-    {
-      "name": "Falukorvsgryta med vita bönor och havregryn",
-      "description": "Fyllig och mättande gryta på falukorv och vita bönor i tomatsås. Havregrynsgröt på ekologiska havregryn som proteinrik frukost hela veckan.",
-      "protein_g_per_serving": 32,
-      "servings": 4,
-      "instructions": [
-        "Skär falukorven i bitar, bryn i olja i en gryta.",
-        "Tillsätt hackad lök och vitlök, fräs 2 minuter.",
-        "Häll i vita bönor med tomatsås och fond, rör om.",
-        "Låt puttra på medelvärme i 15 minuter, smaka av med kryddor.",
-        "Portionera i matlådor – grytan smakar bättre nästa dag.",
-        "Koka havregrynsgröt separat som frukost: 1 dl havregryn + 3 dl vatten, 5 min."
-      ],
-      "ingredients": [
-        {
-          "name": "Falukorv",
-          "amount": "2 st (ca 800 g)",
-          "store": "willys",
-          "price_sek": 67.0,
-          "origin_flag": "⚠️ Ursprung okänt"
-        },
-        {
-          "name": "Vita bönor i tomatsås",
-          "amount": "4 burkar",
-          "store": "willys",
-          "price_sek": 37.44,
-          "origin_flag": null
-        },
-        {
-          "name": "Fond",
-          "amount": "1 förp",
-          "store": "willys",
-          "price_sek": 29.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Ekologiska Havregryn",
-          "amount": "1 förp",
-          "store": "willys",
-          "price_sek": 15.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Lök",
-          "amount": "2 st",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Vitlök",
-          "amount": "2 klyftor",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Olja",
-          "amount": "2 msk",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Salt, peppar, timjan",
-          "amount": "efter smak",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
         }
       ]
     }
@@ -285,10 +270,17 @@
   "shopping_list": {
     "offer_items": [
       {
-        "name": "Nötfärs",
-        "amount": "800 g",
+        "name": "Salladskyckling",
+        "amount": "2 förp (~800 g)",
         "store": "willys",
-        "price_sek": 99.9,
+        "price_sek": 113.36,
+        "checked": false
+      },
+      {
+        "name": "Currypasta",
+        "amount": "1 förp",
+        "store": "willys",
+        "price_sek": 18.83,
         "checked": false
       },
       {
@@ -299,66 +291,52 @@
         "checked": false
       },
       {
-        "name": "Spaghetti",
-        "amount": "500 g",
-        "store": "willys",
-        "price_sek": 13.5,
-        "checked": false
-      },
-      {
-        "name": "Tomatpuré",
+        "name": "Basmatiris/jasminris",
         "amount": "1 förp",
         "store": "willys",
-        "price_sek": 14.1,
+        "price_sek": 34.9,
         "checked": false
       },
       {
-        "name": "Ekologisk fläskkarré",
+        "name": "Fläskytterfilé",
         "amount": "1 kg",
         "store": "willys",
-        "price_sek": 52.9,
+        "price_sek": 89.81,
         "checked": false
       },
       {
-        "name": "Jasminris",
-        "amount": "1 kg",
-        "store": "willys",
-        "price_sek": 42.9,
-        "checked": false
-      },
-      {
-        "name": "Senap",
+        "name": "Röda linser",
         "amount": "1 förp",
         "store": "willys",
-        "price_sek": 15.99,
+        "price_sek": 26.9,
         "checked": false
       },
       {
-        "name": "Kycklingfilé",
-        "amount": "800 g",
-        "store": "willys",
-        "price_sek": 84.9,
-        "checked": false
-      },
-      {
-        "name": "Kvisttomater",
-        "amount": "500 g",
+        "name": "Plommontomater 500g",
+        "amount": "1 förp",
         "store": "willys",
         "price_sek": 29.9,
         "checked": false
       },
       {
-        "name": "Fullkornsmakaroner",
-        "amount": "500 g",
+        "name": "Torskfilé i bitar",
+        "amount": "1 förp (~500 g)",
         "store": "willys",
-        "price_sek": 22.61,
+        "price_sek": 69.9,
         "checked": false
       },
       {
-        "name": "Falukorv",
-        "amount": "2 st",
+        "name": "Spaghetti",
+        "amount": "1 förp (500 g)",
         "store": "willys",
-        "price_sek": 67.0,
+        "price_sek": 13.5,
+        "checked": false
+      },
+      {
+        "name": "Fläskkotletter",
+        "amount": "1 förp (~800 g)",
+        "store": "willys",
+        "price_sek": 93.9,
         "checked": false
       },
       {
@@ -369,34 +347,52 @@
         "checked": false
       },
       {
-        "name": "Fond",
+        "name": "Senap",
         "amount": "1 förp",
         "store": "willys",
-        "price_sek": 29.9,
-        "checked": false
-      },
-      {
-        "name": "Ekologiska Havregryn",
-        "amount": "1 förp",
-        "store": "willys",
-        "price_sek": 15.9,
+        "price_sek": 15.99,
         "checked": false
       }
     ],
     "pantry_items": [
       {
-        "name": "Lök",
-        "amount": "4 st",
+        "name": "Kokosmjölk",
+        "amount": "400 ml",
         "checked": false
       },
       {
-        "name": "Vitlök",
-        "amount": "1 huvud",
+        "name": "Rapsolja",
+        "amount": "5 msk totalt",
         "checked": false
       },
       {
         "name": "Olivolja",
-        "amount": "1 flaska",
+        "amount": "3 msk",
+        "checked": false
+      },
+      {
+        "name": "Lök",
+        "amount": "3 st",
+        "checked": false
+      },
+      {
+        "name": "Vitlök",
+        "amount": "6 klyftor",
+        "checked": false
+      },
+      {
+        "name": "Spiskummin",
+        "amount": "1 tsk",
+        "checked": false
+      },
+      {
+        "name": "Paprikapulver",
+        "amount": "1 tsk",
+        "checked": false
+      },
+      {
+        "name": "Torkad basilika",
+        "amount": "1 tsk",
         "checked": false
       },
       {
@@ -408,30 +404,10 @@
         "name": "Svartpeppar",
         "amount": "efter smak",
         "checked": false
-      },
-      {
-        "name": "Oregano",
-        "amount": "1 tsk",
-        "checked": false
-      },
-      {
-        "name": "Paprikapulver",
-        "amount": "2 tsk",
-        "checked": false
-      },
-      {
-        "name": "Timjan",
-        "amount": "1 tsk",
-        "checked": false
-      },
-      {
-        "name": "Citron",
-        "amount": "1 st",
-        "checked": false
       }
     ]
   },
-  "total_cost_sek": 554.94,
-  "estimated_protein_g_week": 835,
-  "notes": "⚠️ URSPRUNGSVARNING: Nötfärsen, kycklingfilén och fläskkarrén saknar ursprungsangivelse i butikens erbjudandedata. Enligt köttkravet i profilen ska nöt, fläsk och kyckling vara av svenskt ursprung – verifiera i butik att dessa är märkta med svensk flagga eller 'Svensk' på förpackningen. Falukorven har likaså okänt ursprung i erbjudandedata – kontrollera i butik. Om ursprung ej kan bekräftas: ersätt med ägg (6-pack), kvarg eller linser som säkra proteinkällor. Vita bönor i tomatsås – 4 burkar à 9,36 kr = 37,44 kr. Falukorv – 2 st à 33,50 kr = 67,00 kr."
+  "total_cost_sek": 572.33,
+  "estimated_protein_g_week": 870,
+  "notes": "⚠️ Salladskyckling, Fläskytterfilé och Fläskkotletter saknar tydlig ursprungsmärkning i erbjudandelistan – kontrollera förpackningens ursprungsland i butik. Välj om möjligt varianter med 🇸🇪 svensk flagga. Vid osäkerhet kan du ersätta kycklingen med färsk kycklingbröstfilé (119 kr, likaså utan tydligt ursprung – kontrollera i butik) eller öka mängden linser, ägg och kvarg som säkra proteinkällor. Vita bönor (4 burkar à 9,36 kr = 37,44 kr) är beräknat på extrapriset 9,36 kr/burk."
 }
