@@ -1,5 +1,5 @@
 {
-  "week": "2026-08-31",
+  "week": "2026-09-07",
   "strategy": {
     "primary_store": "willys",
     "split": false,
@@ -8,52 +8,52 @@
   },
   "meals": [
     {
-      "name": "Ugnsrostad karré med vitlökspotatis och vitkål",
-      "description": "Saftig fläskkarré i ugnen med krispig vitkålssallad och ugnsrostad potatis. Klassisk bulkfavorit med hög proteinhalt och låg kostnad per portion.",
-      "protein_g_per_serving": 48,
-      "servings": 5,
+      "name": "Kycklinginnerfilé med wokmix och sojasås",
+      "description": "Snabb och proteinrik wok med kycklinginnerfilé, grönsaker och glasnudlar. Perfekt att meal-prepa i stor sats.",
+      "protein_g_per_serving": 42,
+      "servings": 4,
       "instructions": [
-        "Sätt ugnen på 175°C. Gnid in karrén med salt, peppar, vitlök och paprikapulver.",
-        "Lägg karrén i en ugnsform och tillsätt 2 dl vatten. Täck med folie.",
-        "Rosta i ugnen 2–2,5 timmar tills innertemperaturen är 70°C.",
-        "Strimla vitkålen fint, massera med salt och citronjuice i 5 minuter.",
-        "Koka potatis i saltat vatten, dela och rosta i ugn 20 min med olja och vitlök.",
-        "Skiva karrén och servera med potatis och kålsallad. Portionera i matlådor."
+        "Koka glasnudlar enligt förpackning, skölj i kallt vatten och ställ åt sidan.",
+        "Skär kycklinginnerfilé i bitar, krydda med salt och svartpeppar.",
+        "Stek kycklingen i olja på hög värme tills genomstekt, ca 5–6 min.",
+        "Tillsätt wokmix direkt i pannan, stek ytterligare 3–4 min.",
+        "Häll över sojasås och lite sesamolja, blanda med nudlarna.",
+        "Portionera i matlådor, toppa med röd spetspaprika i strimlor."
       ],
       "ingredients": [
         {
-          "name": "Karré i bit",
-          "amount": "1,2 kg",
+          "name": "Kycklinginnerfilé",
+          "amount": "800 g",
           "store": "willys",
-          "price_sek": 109.0,
+          "price_sek": 49.9,
           "origin_flag": "⚠️ Ursprung okänt"
         },
         {
-          "name": "Hel vitkål",
-          "amount": "1 st",
+          "name": "Wokmix",
+          "amount": "1 påse (ca 500 g)",
           "store": "willys",
-          "price_sek": 16.9,
+          "price_sek": 21.67,
           "origin_flag": null
         },
         {
-          "name": "Citroner",
-          "amount": "2 st",
+          "name": "Glasnudlar",
+          "amount": "1 paket",
           "store": "willys",
-          "price_sek": 6.9,
+          "price_sek": 12.2,
           "origin_flag": null
         },
         {
-          "name": "Potatis",
-          "amount": "1 kg",
-          "store": "pantry",
-          "price_sek": null,
+          "name": "Sojasås",
+          "amount": "4 msk",
+          "store": "willys",
+          "price_sek": 56.68,
           "origin_flag": null
         },
         {
-          "name": "Vitlök",
-          "amount": "4 klyftor",
-          "store": "pantry",
-          "price_sek": null,
+          "name": "Röd spetspaprika 200g",
+          "amount": "1 förpackning",
+          "store": "willys",
+          "price_sek": 19.9,
           "origin_flag": null
         },
         {
@@ -64,14 +64,86 @@
           "origin_flag": null
         },
         {
-          "name": "Salt och peppar",
+          "name": "Salt och svartpeppar",
+          "amount": "efter smak",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        }
+      ]
+    },
+    {
+      "name": "Blandfärsgrytan med finkrossade tomater och makaroner",
+      "description": "Klassisk köttgryta med blandfärs, tomater och pasta – mättande, billig och full av protein. Smaksatt med lök och vitlök.",
+      "protein_g_per_serving": 38,
+      "servings": 5,
+      "instructions": [
+        "Hacka lök och vitlök fint, fräs i en stor gryta med olja tills mjuk.",
+        "Tillsätt blandfärsen, bryn ordentligt och bryt sönder klumpar.",
+        "Häll i finkrossade tomater, buljong och kryddor – låt sjuda 20 min.",
+        "Koka makaroner separat enligt förpackning, blanda ner i grytan.",
+        "Smaka av med salt, peppar och oregano.",
+        "Portionera i fem matlådor och låt svalna innan förvaring."
+      ],
+      "ingredients": [
+        {
+          "name": "Blandfärs",
+          "amount": "1 förpackning (ca 800 g)",
+          "store": "willys",
+          "price_sek": 92.9,
+          "origin_flag": "⚠️ Ursprung okänt"
+        },
+        {
+          "name": "Finkrossade tomater 4-pack",
+          "amount": "2 förpackningar",
+          "store": "willys",
+          "price_sek": 46.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Pasta",
+          "amount": "500 g",
+          "store": "willys",
+          "price_sek": 15.5,
+          "origin_flag": null
+        },
+        {
+          "name": "Ekologisk buljong 6-pack",
+          "amount": "1 förpackning",
+          "store": "willys",
+          "price_sek": 10.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Gul lök 1 kg",
+          "amount": "1 lök",
+          "store": "willys",
+          "price_sek": 14.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Vitlök",
+          "amount": "3 klyftor",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Torkad oregano",
+          "amount": "1 tsk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Salt och svartpeppar",
           "amount": "efter smak",
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
         },
         {
-          "name": "Paprikapulver",
+          "name": "Rapsolja",
           "amount": "1 msk",
           "store": "pantry",
           "price_sek": null,
@@ -80,135 +152,135 @@
       ]
     },
     {
-      "name": "Fläskfärssås med spaghetti",
-      "description": "Mustigt kokt färssås på fläskfärs med krossade tomater och paprika – serveras på spaghetti. Enkel klassiker som meal-prepas på 30 minuter.",
-      "protein_g_per_serving": 42,
-      "servings": 5,
+      "name": "Kycklingkebab-wrappar med turkisk yoghurt och jalapeño",
+      "description": "Saftig kycklingkebab i tortilla med krämig turkisk yoghurt och het jalapeño – en lättmonterad meal-prep-favorit.",
+      "protein_g_per_serving": 36,
+      "servings": 4,
       "instructions": [
-        "Bryn fläskfärsen i en stor gryta på hög värme, salta och peppra.",
-        "Finhacka lök och vitlök, tillsätt och stek 3 minuter till.",
-        "Tärna paprika och tillsätt tillsammans med krossade tomater och örtkryddor.",
-        "Sjud såsen på medelvärme i 20 minuter. Smaka av med salt och peppar.",
-        "Koka spaghetti enligt förpackning, spara lite pastavatten.",
-        "Blanda pasta med sås, portionera i 5 matlådor."
+        "Stek kycklingkebaben i torr panna på medelhög värme tills genomvarm, ca 8 min.",
+        "Värm tortillabröden kort i pannan eller mikron.",
+        "Blanda turkisk yoghurt med salt, peppar och lite limejuice.",
+        "Lägg kebab på bröden, toppa med yoghurt och jalapeños.",
+        "Rulla ihop tajt och slå in i smörgåspapper för matlåda.",
+        "Förvara kallt – värm wrappen utan papper i mikron vid servering."
       ],
       "ingredients": [
         {
-          "name": "Fläskfärs",
-          "amount": "800 g",
+          "name": "Kycklingkebab",
+          "amount": "1 förpackning (ca 700 g)",
           "store": "willys",
-          "price_sek": 61.42,
+          "price_sek": 66.9,
           "origin_flag": "⚠️ Ursprung okänt"
         },
         {
-          "name": "Finkrossade tomater 4-pack",
-          "amount": "1 förp (4 x 400g)",
+          "name": "Tortilla 8-pack",
+          "amount": "1 förpackning",
           "store": "willys",
-          "price_sek": 46.9,
+          "price_sek": 11.26,
           "origin_flag": null
         },
         {
-          "name": "Paprika somborka",
-          "amount": "500 g",
+          "name": "Turkisk yoghurt",
+          "amount": "1 burk (ca 500 g)",
           "store": "willys",
-          "price_sek": 39.9,
+          "price_sek": 18.9,
           "origin_flag": null
         },
         {
-          "name": "Spaghetti",
-          "amount": "500 g",
+          "name": "Jalapeño",
+          "amount": "1 burk",
           "store": "willys",
-          "price_sek": 19.9,
+          "price_sek": 18.83,
           "origin_flag": null
         },
         {
-          "name": "Gul lök",
-          "amount": "2 st",
+          "name": "Lime",
+          "amount": "1 st",
+          "store": "willys",
+          "price_sek": 4.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Salt och svartpeppar",
+          "amount": "efter smak",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        }
+      ]
+    },
+    {
+      "name": "Nöt & grönt-färs med kikärtor, spenat och ris",
+      "description": "Mustig järnrik gryta med nöt- och grönsaksfärs, kikärtor och bladspenat – serveras på kokt ris för maximal mättnad.",
+      "protein_g_per_serving": 35,
+      "servings": 4,
+      "instructions": [
+        "Bryn nöt & grönt-färsen i stor stekpanna med lite olja och salt.",
+        "Tillsätt hackad lök och vitlök, fräs tills mjuk.",
+        "Rör ner kikärtor (avrunna), bladspenat och kryddor (spiskummin, paprikapulver).",
+        "Häll i ett par msk vatten eller buljong, låt koka ihop 5 min.",
+        "Koka ris separat, portionera ut i lådor med ett rejält lager ris som bas.",
+        "Lägg färsblandningen ovanpå riset och förvara i kyl upp till 4 dagar."
+      ],
+      "ingredients": [
+        {
+          "name": "Nöt & grönt färs",
+          "amount": "1 förpackning (ca 500 g)",
+          "store": "willys",
+          "price_sek": 59.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Ekologiska kikärtor",
+          "amount": "2 burkar",
+          "store": "willys",
+          "price_sek": 24.4,
+          "origin_flag": null
+        },
+        {
+          "name": "Bladspenat",
+          "amount": "1 påse (ca 200 g)",
+          "store": "willys",
+          "price_sek": 18.83,
+          "origin_flag": null
+        },
+        {
+          "name": "Morötter 1 kg",
+          "amount": "2 morötter",
+          "store": "willys",
+          "price_sek": 14.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Ris",
+          "amount": "4 dl (torrvikt)",
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
         },
         {
           "name": "Vitlök",
-          "amount": "4 klyftor",
+          "amount": "3 klyftor",
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
         },
         {
-          "name": "Oregano",
-          "amount": "2 tsk",
+          "name": "Spiskummin",
+          "amount": "1 tsk",
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
         },
         {
-          "name": "Rapsolja",
-          "amount": "1 msk",
+          "name": "Paprikapulver",
+          "amount": "1 tsk",
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
         },
         {
-          "name": "Salt och peppar",
-          "amount": "efter smak",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        }
-      ]
-    },
-    {
-      "name": "Ugnsbakad lax med ris och yoghurtsås",
-      "description": "Enkelt ugnsbakad laxfilé med kokt ris och en fräsch turkisk yoghurtsås med citron och persilja. Hög proteinhalt och snabb tillagning.",
-      "protein_g_per_serving": 44,
-      "servings": 4,
-      "instructions": [
-        "Sätt ugnen på 200°C. Lägg laxfileérna i en ugnsform.",
-        "Salta, peppra och pressa citron över fisken. Ringa över lite olja.",
-        "Baka laxen i ugnen 15–18 minuter tills den är genomvarm.",
-        "Koka riset enligt förpackning med salt och lite smör.",
-        "Blanda turkisk yoghurt med hackad bladpersilja, citronskal och salt.",
-        "Portionera ris, lax och yoghurtsås i matlådor."
-      ],
-      "ingredients": [
-        {
-          "name": "Laxfilé 4-pack",
-          "amount": "1 förp (~600 g)",
-          "store": "willys",
-          "price_sek": 94.54,
-          "origin_flag": null
-        },
-        {
-          "name": "Turkisk yoghurt",
-          "amount": "500 g",
-          "store": "willys",
-          "price_sek": 18.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Bladpersilja 250g",
-          "amount": "100 g",
-          "store": "willys",
-          "price_sek": 24.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Citroner",
-          "amount": "1 st",
-          "store": "willys",
-          "price_sek": 6.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Ris (långkornigt)",
-          "amount": "4 dl",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Salt och peppar",
+          "name": "Salt och svartpeppar",
           "amount": "efter smak",
           "store": "pantry",
           "price_sek": null,
@@ -220,53 +292,9 @@
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
-        }
-      ]
-    },
-    {
-      "name": "Skyr- och yoghurtbaserat proteinfrukostbowl med flingor",
-      "description": "Snabb och proteinrik frukost- eller mellanmålsbowl med ekologisk skyr, smaksatt yoghurt och flingor. Meal-prepas i portionsglas för hela veckan.",
-      "protein_g_per_serving": 28,
-      "servings": 5,
-      "instructions": [
-        "Blanda ekologisk skyr och smaksatt yoghurt i en stor skål.",
-        "Pressa i lite citron och rör om.",
-        "Häll upp i 5 portionsglas eller burkar.",
-        "Toppa varje portion med flingor och salta jordnötter.",
-        "Försegla med lock och ställ i kyl – håller 4–5 dagar.",
-        "Ta fram morgonen och ät direkt – inget uppvärmning krävs."
-      ],
-      "ingredients": [
-        {
-          "name": "Ekologisk skyr",
-          "amount": "2 x 500 g",
-          "store": "willys",
-          "price_sek": 39.8,
-          "origin_flag": null
         },
         {
-          "name": "Smaksatt yoghurt",
-          "amount": "500 g",
-          "store": "willys",
-          "price_sek": 21.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Flingor",
-          "amount": "1 förp",
-          "store": "willys",
-          "price_sek": 34.92,
-          "origin_flag": null
-        },
-        {
-          "name": "Salta jordnötter",
-          "amount": "200 g",
-          "store": "willys",
-          "price_sek": 19.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Citroner",
+          "name": "Gul lök",
           "amount": "1 st",
           "store": "pantry",
           "price_sek": null,
@@ -278,118 +306,143 @@
   "shopping_list": {
     "offer_items": [
       {
-        "name": "Karré i bit",
-        "amount": "1,2 kg",
-        "store": "willys",
-        "price_sek": 109.0,
-        "checked": false
-      },
-      {
-        "name": "Hel vitkål",
-        "amount": "1 st",
-        "store": "willys",
-        "price_sek": 16.9,
-        "checked": false
-      },
-      {
-        "name": "Citroner",
-        "amount": "4 st (2 påsar)",
-        "store": "willys",
-        "price_sek": 13.8,
-        "checked": false
-      },
-      {
-        "name": "Fläskfärs",
+        "name": "Kycklinginnerfilé",
         "amount": "800 g",
         "store": "willys",
-        "price_sek": 61.42,
+        "price_sek": 49.9,
+        "checked": false
+      },
+      {
+        "name": "Wokmix",
+        "amount": "1 påse",
+        "store": "willys",
+        "price_sek": 21.67,
+        "checked": false
+      },
+      {
+        "name": "Glasnudlar",
+        "amount": "1 paket",
+        "store": "willys",
+        "price_sek": 12.2,
+        "checked": false
+      },
+      {
+        "name": "Sojasås",
+        "amount": "1 flaska",
+        "store": "willys",
+        "price_sek": 56.68,
+        "checked": false
+      },
+      {
+        "name": "Röd spetspaprika 200g",
+        "amount": "1 förpackning",
+        "store": "willys",
+        "price_sek": 19.9,
+        "checked": false
+      },
+      {
+        "name": "Blandfärs",
+        "amount": "1 förpackning (ca 800 g)",
+        "store": "willys",
+        "price_sek": 92.9,
         "checked": false
       },
       {
         "name": "Finkrossade tomater 4-pack",
-        "amount": "1 förp",
+        "amount": "1 förpackning",
         "store": "willys",
         "price_sek": 46.9,
         "checked": false
       },
       {
-        "name": "Paprika somborka",
+        "name": "Pasta",
         "amount": "500 g",
         "store": "willys",
-        "price_sek": 39.9,
+        "price_sek": 15.5,
         "checked": false
       },
       {
-        "name": "Spaghetti",
-        "amount": "500 g",
+        "name": "Ekologisk buljong 6-pack",
+        "amount": "1 förpackning",
         "store": "willys",
-        "price_sek": 19.9,
+        "price_sek": 10.9,
         "checked": false
       },
       {
-        "name": "Laxfilé 4-pack",
-        "amount": "1 förp (~600 g)",
+        "name": "Gul lök 1 kg",
+        "amount": "1 kg",
         "store": "willys",
-        "price_sek": 94.54,
+        "price_sek": 14.9,
+        "checked": false
+      },
+      {
+        "name": "Kycklingkebab",
+        "amount": "1 förpackning (ca 700 g)",
+        "store": "willys",
+        "price_sek": 66.9,
+        "checked": false
+      },
+      {
+        "name": "Tortilla 8-pack",
+        "amount": "1 förpackning",
+        "store": "willys",
+        "price_sek": 11.26,
         "checked": false
       },
       {
         "name": "Turkisk yoghurt",
-        "amount": "500 g",
+        "amount": "1 burk (ca 500 g)",
         "store": "willys",
         "price_sek": 18.9,
         "checked": false
       },
       {
-        "name": "Bladpersilja 250g",
-        "amount": "1 förp",
+        "name": "Jalapeño",
+        "amount": "1 burk",
         "store": "willys",
-        "price_sek": 24.9,
+        "price_sek": 18.83,
         "checked": false
       },
       {
-        "name": "Ekologisk skyr",
-        "amount": "2 x 500 g",
+        "name": "Lime",
+        "amount": "1 st",
         "store": "willys",
-        "price_sek": 39.8,
+        "price_sek": 4.9,
         "checked": false
       },
       {
-        "name": "Smaksatt yoghurt",
-        "amount": "500 g",
+        "name": "Nöt & grönt färs",
+        "amount": "1 förpackning (ca 500 g)",
         "store": "willys",
-        "price_sek": 21.9,
+        "price_sek": 59.9,
         "checked": false
       },
       {
-        "name": "Flingor",
-        "amount": "1 förp",
+        "name": "Ekologiska kikärtor",
+        "amount": "2 burkar",
         "store": "willys",
-        "price_sek": 34.92,
+        "price_sek": 24.4,
         "checked": false
       },
       {
-        "name": "Salta jordnötter",
-        "amount": "200 g",
+        "name": "Bladspenat",
+        "amount": "1 påse",
         "store": "willys",
-        "price_sek": 19.9,
+        "price_sek": 18.83,
+        "checked": false
+      },
+      {
+        "name": "Morötter 1 kg",
+        "amount": "1 kg",
+        "store": "willys",
+        "price_sek": 14.9,
         "checked": false
       }
     ],
     "pantry_items": [
       {
-        "name": "Potatis",
-        "amount": "1 kg",
-        "checked": false
-      },
-      {
-        "name": "Vitlök",
-        "amount": "1 huvud",
-        "checked": false
-      },
-      {
         "name": "Rapsolja",
-        "amount": "5 msk",
+        "amount": "ca 5 msk totalt",
         "checked": false
       },
       {
@@ -403,33 +456,33 @@
         "checked": false
       },
       {
+        "name": "Vitlök",
+        "amount": "6–8 klyftor",
+        "checked": false
+      },
+      {
+        "name": "Torkad oregano",
+        "amount": "1 tsk",
+        "checked": false
+      },
+      {
+        "name": "Spiskummin",
+        "amount": "1 tsk",
+        "checked": false
+      },
+      {
         "name": "Paprikapulver",
-        "amount": "1 msk",
+        "amount": "1 tsk",
         "checked": false
       },
       {
-        "name": "Gul lök",
-        "amount": "2 st",
-        "checked": false
-      },
-      {
-        "name": "Oregano",
-        "amount": "2 tsk",
-        "checked": false
-      },
-      {
-        "name": "Ris (långkornigt)",
-        "amount": "4 dl",
-        "checked": false
-      },
-      {
-        "name": "Smör",
-        "amount": "1 msk",
+        "name": "Ris",
+        "amount": "4 dl torrvikt",
         "checked": false
       }
     ]
   },
-  "total_cost_sek": 562.68,
-  "estimated_protein_g_week": 810,
-  "notes": "⚠️ Ursprung saknas för Karré i bit och Fläskfärs – dessa är troligen fläsk men märkning i butikens erbjudandedata anger inget ursprungsland. Kontrollera förpackningens etikett i butik och se efter 'Svensk fläsk' eller Krav-märkning. Om ursprung ej kan bekräftas: ersätt karrén med ytterligare laxfilé eller köttbullar (märkta SE), och fläskfärsen med ekologisk kyckling- eller nötfärs med tydlig Svensk-märkning. Ekologisk skyr är dubblerad i inköpslistan (2 x 500g = 2 x 19,90 kr). Proteinuppskattningen baseras på: karré ~48g/port x5, fläskfärssås ~42g/port x5, lax ~44g/port x4, skyrbowl ~28g/port x5."
+  "total_cost_sek": 579.17,
+  "estimated_protein_g_week": 604,
+  "notes": "⚠️ Ursprungsvarning: Kycklinginnerfilé, Blandfärs och Kycklingkebab saknar ursprungsangivelse i butikens erbjudandedata. Välj förpackningar märkta med 🇸🇪 svensk flagga i butiken. Om svenskt ursprung inte kan bekräftas – ersätt blandfärsen med extra kikärtor + ägg, och kycklingen med kvarg eller kokt ägg som proteinkälla. Nöt & grönt-färsen är inte renodlat kött och omfattas därmed inte av ursprungskravet på samma sätt – kontrollera ändå märkning i butik."
 }
