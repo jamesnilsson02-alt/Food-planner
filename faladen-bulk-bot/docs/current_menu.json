@@ -1,5 +1,5 @@
 {
-  "week": "2026-09-28",
+  "week": "2026-10-05",
   "strategy": {
     "primary_store": "willys",
     "split": false,
@@ -8,39 +8,248 @@
   },
   "meals": [
     {
-      "name": "Kasslergryta med vita bönor och vitkål",
-      "description": "Klassisk svensk husmanskost i gryta – kassler, vita bönor och vitkål ger massor av protein och fibrer för lite pengar. Perfekt att meal-prepa i stor sats.",
+      "name": "Fläskfärsbiffar med tomatsås och jasminris",
+      "description": "Saftiga köttbiffar i rik tomatsås serverade på fluffigt jasminris. Klassisk meal-prep-favorit som håller hela veckan.",
       "protein_g_per_serving": 42,
       "servings": 5,
       "instructions": [
-        "Skär kasslern i grova bitar, bryn i gryta med lite olja.",
-        "Tillsätt strimlad vitkål och låt fräsa 3 minuter.",
-        "Häll i vita bönor (sköljda), buljong och vatten så det täcker.",
-        "Krydda med svartpeppar, lagerblad och lite timjan.",
-        "Låt sjuda på låg värme i 25 minuter tills vitkålen är mjuk.",
-        "Smaka av med salt, servera med knäckebröd eller ris."
+        "Blanda fläskfärs med salt, peppar, vitlök och lök. Forma 10 biffar.",
+        "Stek biffarna i rapsolja på hög värme, 3 min per sida. Lyft ur.",
+        "Fräs hackad lök och vitlök i samma panna i 2 min.",
+        "Häll i krossade tomater, buljong och kryddor. Låt koka 10 min.",
+        "Lägg tillbaka biffarna i såsen. Sjud 15 min på låg värme.",
+        "Koka jasminris enligt förpackning. Portionera och förvara i kylen."
       ],
       "ingredients": [
         {
-          "name": "Kassler",
+          "name": "Fläskfärs",
           "amount": "800 g",
           "store": "willys",
-          "price_sek": 84.9,
+          "price_sek": 42.9,
+          "origin_flag": "⚠️ Ursprung okänt"
+        },
+        {
+          "name": "Krossade/passerade tomater",
+          "amount": "2 förp (à 390 g)",
+          "store": "willys",
+          "price_sek": 15.8,
+          "origin_flag": null
+        },
+        {
+          "name": "Jasminris",
+          "amount": "500 g",
+          "store": "willys",
+          "price_sek": 41.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Ekologiska buljongtärningar",
+          "amount": "1 förp",
+          "store": "willys",
+          "price_sek": 10.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Rapsolja",
+          "amount": "2 msk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Lök",
+          "amount": "2 st",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Vitlök",
+          "amount": "4 klyftor",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Salt, peppar, paprikapulver",
+          "amount": "efter smak",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        }
+      ]
+    },
+    {
+      "name": "Ugnsbakad laxfilé med sötpotatis och kvarg-dipdressing",
+      "description": "Saftig lax ugnsrostad med kryddad sötpotatis – snabb och proteinrik rätt med en sval kvargdressing på sidan.",
+      "protein_g_per_serving": 45,
+      "servings": 4,
+      "instructions": [
+        "Värm ugnen till 200°C. Skala och klyfta sötpotatis, lägg på plåt.",
+        "Ringla rapsolja över sötpotatisen, krydda med salt, peppar och rökt paprika. Rosta 20 min.",
+        "Lägg laxfiléerna på en separat plåt, krydda med salt, citronpeppar och dill.",
+        "Ugnsbaka laxen 12–15 min tills den är genomvarm.",
+        "Rör ihop kvarg med pressad citron, salt och hackad dill till en dressing.",
+        "Portionera lax, sötpotatis och kvargdressing i matlådor."
+      ],
+      "ingredients": [
+        {
+          "name": "Laxfilé 4-pack",
+          "amount": "1 förp",
+          "store": "willys",
+          "price_sek": 112.62,
+          "origin_flag": null
+        },
+        {
+          "name": "Sötpotatis",
+          "amount": "1 kg",
+          "store": "willys",
+          "price_sek": 24.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Kvarg",
+          "amount": "2 förp",
+          "store": "willys",
+          "price_sek": 19.8,
+          "origin_flag": null
+        },
+        {
+          "name": "Rapsolja",
+          "amount": "3 msk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Citron",
+          "amount": "1 st",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Dill, salt, citronpeppar, rökt paprikapulver",
+          "amount": "efter smak",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        }
+      ]
+    },
+    {
+      "name": "Kycklingbröstfilé med vita bönor och champinjongryta",
+      "description": "Kraftig gryta med kycklingbröst, vita bönor och champinjoner i tomatsås – hög proteindensitet och mättande kolhydrater.",
+      "protein_g_per_serving": 52,
+      "servings": 5,
+      "instructions": [
+        "Skär kycklingfilé i bitar. Bryn i rapsolja med salt och peppar, 4 min.",
+        "Skiva champinjoner och fräs med hackad lök i 3 min.",
+        "Häll i krossade tomater och avrunna vita bönor. Rör om.",
+        "Smula i en buljongtärning och tillsätt 1 dl vatten. Blanda väl.",
+        "Lägg i kycklingen. Sjud på medelvärme 20 min med lock.",
+        "Smaka av med salt, peppar och oregano. Portionera i lådor."
+      ],
+      "ingredients": [
+        {
+          "name": "Kycklingbröstfilé",
+          "amount": "1 kg",
+          "store": "willys",
+          "price_sek": 139.0,
           "origin_flag": "⚠️ Ursprung okänt"
         },
         {
           "name": "Vita bönor 4-pack",
-          "amount": "1 förp (4 burkar)",
+          "amount": "1 förp",
           "store": "willys",
           "price_sek": 39.9,
           "origin_flag": null
         },
         {
-          "name": "Svenska rotgrönsaker, vitkål",
+          "name": "Champinjoner 250g",
+          "amount": "2 förp",
+          "store": "willys",
+          "price_sek": 31.8,
+          "origin_flag": null
+        },
+        {
+          "name": "Krossade/passerade tomater",
+          "amount": "1 förp (390 g)",
+          "store": "willys",
+          "price_sek": 7.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Ekologiska buljongtärningar",
           "amount": "1 förp",
           "store": "willys",
-          "price_sek": 16.9,
-          "origin_flag": "🇸🇪"
+          "price_sek": 10.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Rapsolja",
+          "amount": "2 msk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Lök",
+          "amount": "2 st",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Vitlök",
+          "amount": "3 klyftor",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Oregano, salt, peppar",
+          "amount": "efter smak",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        }
+      ]
+    },
+    {
+      "name": "Pumpasoppa med laxgrytbitar och kokosmjölk",
+      "description": "Krämig höstgryta med pumpa och lax i lätt kryddad kokosmjölk – varm, fyllig och enkel att batchlaga.",
+      "protein_g_per_serving": 32,
+      "servings": 4,
+      "instructions": [
+        "Skala och tärna pumpa i 2 cm bitar. Hacka lök och vitlök.",
+        "Fräs lök och vitlök i rapsolja 2 min. Tillsätt pumpa, rör om.",
+        "Häll i kokosmjölk och buljong. Koka 20 min tills pumpan är mjuk.",
+        "Mixa hälften av soppan slät med stavmixer för krämig konsistens.",
+        "Lägg i laxgrytbitarna. Sjud på låg värme 8 min – rör försiktigt.",
+        "Smaka av med salt, peppar och ingefära. Portionera i lådor."
+      ],
+      "ingredients": [
+        {
+          "name": "Grytbitar av lax",
+          "amount": "1 förp",
+          "store": "willys",
+          "price_sek": 56.68,
+          "origin_flag": null
+        },
+        {
+          "name": "Delade pumpor",
+          "amount": "1 st (ca 1 kg)",
+          "store": "willys",
+          "price_sek": 29.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Ekologisk kokosmjölk",
+          "amount": "2 förp",
+          "store": "willys",
+          "price_sek": 35.8,
+          "origin_flag": null
         },
         {
           "name": "Buljong",
@@ -50,133 +259,10 @@
           "origin_flag": null
         },
         {
-          "name": "Olivolja",
+          "name": "Rapsolja",
           "amount": "2 msk",
           "store": "pantry",
           "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Lagerblad",
-          "amount": "2 st",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Timjan",
-          "amount": "1 tsk",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Salt och svartpeppar",
-          "amount": "efter smak",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        }
-      ]
-    },
-    {
-      "name": "Kycklingben i ugn med paprikamix och pasta",
-      "description": "Saftiga ugnsstekta kycklingben med paprika och pastasås – serveras med kokt pasta för en mättande och proteintät rätt.",
-      "protein_g_per_serving": 45,
-      "servings": 5,
-      "instructions": [
-        "Lägg kycklingbenen i ugnsform, gnid in med salt, peppar och paprikapulver.",
-        "Fördela paprikamixen runt kycklingen i formen.",
-        "Häll pastasåsen över allt och täck med folie.",
-        "Grädda i 200°C i 40 minuter, ta av folien de sista 10 minuterna.",
-        "Koka pasta enligt förpackning under tiden.",
-        "Servera kycklingbenen och såsen över pastan."
-      ],
-      "ingredients": [
-        {
-          "name": "Kycklingben",
-          "amount": "1 kg",
-          "store": "willys",
-          "price_sek": 49.9,
-          "origin_flag": "⚠️ Ursprung okänt"
-        },
-        {
-          "name": "Paprikamix 400g",
-          "amount": "1 förp",
-          "store": "willys",
-          "price_sek": 27.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Pastasås",
-          "amount": "1 burk",
-          "store": "willys",
-          "price_sek": 34.92,
-          "origin_flag": null
-        },
-        {
-          "name": "Pasta",
-          "amount": "500 g",
-          "store": "willys",
-          "price_sek": 19.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Paprikapulver",
-          "amount": "2 tsk",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Salt och svartpeppar",
-          "amount": "efter smak",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        }
-      ]
-    },
-    {
-      "name": "Salsicciafärs med ricotta och färsk pasta",
-      "description": "Smakrik italiensk-inspirerad pastararätt med kryddig salsicciafärs och krämig ricotta – enkelt att meal-prepa och riktigt gott.",
-      "protein_g_per_serving": 35,
-      "servings": 4,
-      "instructions": [
-        "Bryn salsicciafärsen i stekpanna, bryt upp i smulor.",
-        "Tillsätt finhackad lök och vitlök, stek ytterligare 3 minuter.",
-        "Häll i pastasåsen och låt sjuda 10 minuter.",
-        "Koka den färska pastan enligt förpackning, ca 2–3 minuter.",
-        "Blanda pasta med köttsåsen i stekpannan.",
-        "Klicka på rikliga skedar ricotta vid servering."
-      ],
-      "ingredients": [
-        {
-          "name": "Salsicciafärs, chorizofärs",
-          "amount": "2 förp",
-          "store": "willys",
-          "price_sek": 59.8,
-          "origin_flag": "⚠️ Ursprung okänt"
-        },
-        {
-          "name": "Färsk pasta",
-          "amount": "2 förp",
-          "store": "willys",
-          "price_sek": 33.0,
-          "origin_flag": null
-        },
-        {
-          "name": "Ricotta",
-          "amount": "1 förp",
-          "store": "willys",
-          "price_sek": 17.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Pastasås",
-          "amount": "1 burk",
-          "store": "willys",
-          "price_sek": 34.92,
           "origin_flag": null
         },
         {
@@ -194,100 +280,7 @@
           "origin_flag": null
         },
         {
-          "name": "Olivolja",
-          "amount": "2 msk",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Salt och svartpeppar",
-          "amount": "efter smak",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        }
-      ]
-    },
-    {
-      "name": "Tofu- och bönwok med ekologiska bönor, spenat och couscous",
-      "description": "Snabb och proteinrik vegowok med tofu, ekologiska bönor och spenat – serveras över fluffig couscous för en komplett bulkmåltid.",
-      "protein_g_per_serving": 30,
-      "servings": 4,
-      "instructions": [
-        "Pressa tofu torr, skär i kuber och bryn gyllene i olja.",
-        "Tillsätt sköljda ekologiska bönor och paprikamix, woka 4 minuter.",
-        "Tillsätt spenaten och låt den falla ihop, ca 1 minut.",
-        "Krydda med soja, vitlök, chili och svartpeppar.",
-        "Koka couscous: häll kokande buljong över, täck och låt stå 5 minuter.",
-        "Fluffa couscousen med gaffel och servera med woken."
-      ],
-      "ingredients": [
-        {
-          "name": "Tofu",
-          "amount": "3 förp",
-          "store": "willys",
-          "price_sek": 35.7,
-          "origin_flag": null
-        },
-        {
-          "name": "Ekologiska bönor",
-          "amount": "3 förp",
-          "store": "willys",
-          "price_sek": 36.6,
-          "origin_flag": null
-        },
-        {
-          "name": "Spenat, ruccola, säsongsmix 200-250g",
-          "amount": "1 förp",
-          "store": "willys",
-          "price_sek": 19.9,
-          "origin_flag": null
-        },
-        {
-          "name": "Ekologisk couscous",
-          "amount": "1 förp",
-          "store": "willys",
-          "price_sek": 18.83,
-          "origin_flag": null
-        },
-        {
-          "name": "Buljong",
-          "amount": "1 tärning",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Soja",
-          "amount": "3 msk",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Vitlök",
-          "amount": "3 klyftor",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Chili",
-          "amount": "1 tsk",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Olja",
-          "amount": "3 msk",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Salt och svartpeppar",
+          "name": "Ingefära, salt, peppar, gurkmeja",
           "amount": "efter smak",
           "store": "pantry",
           "price_sek": null,
@@ -299,10 +292,59 @@
   "shopping_list": {
     "offer_items": [
       {
-        "name": "Kassler",
+        "name": "Fläskfärs",
         "amount": "800 g",
         "store": "willys",
-        "price_sek": 84.9,
+        "price_sek": 42.9,
+        "checked": false
+      },
+      {
+        "name": "Kycklingbröstfilé",
+        "amount": "1 kg",
+        "store": "willys",
+        "price_sek": 139.0,
+        "checked": false
+      },
+      {
+        "name": "Laxfilé 4-pack",
+        "amount": "1 förp",
+        "store": "willys",
+        "price_sek": 112.62,
+        "checked": false
+      },
+      {
+        "name": "Grytbitar av lax",
+        "amount": "1 förp",
+        "store": "willys",
+        "price_sek": 56.68,
+        "checked": false
+      },
+      {
+        "name": "Kvarg",
+        "amount": "2 förp",
+        "store": "willys",
+        "price_sek": 19.8,
+        "checked": false
+      },
+      {
+        "name": "Jasminris",
+        "amount": "1 förp",
+        "store": "willys",
+        "price_sek": 41.9,
+        "checked": false
+      },
+      {
+        "name": "Krossade/passerade tomater (small)",
+        "amount": "2 st à 390 g",
+        "store": "willys",
+        "price_sek": 15.8,
+        "checked": false
+      },
+      {
+        "name": "Krossade/passerade tomater (stor)",
+        "amount": "1 st",
+        "store": "willys",
+        "price_sek": 7.9,
         "checked": false
       },
       {
@@ -313,141 +355,67 @@
         "checked": false
       },
       {
-        "name": "Svenska rotgrönsaker, vitkål",
-        "amount": "1 förp",
-        "store": "willys",
-        "price_sek": 16.9,
-        "checked": false
-      },
-      {
-        "name": "Buljong",
+        "name": "Champinjoner 250g",
         "amount": "2 förp",
         "store": "willys",
-        "price_sek": 23.66,
+        "price_sek": 31.8,
         "checked": false
       },
       {
-        "name": "Kycklingben",
+        "name": "Sötpotatis",
         "amount": "1 kg",
         "store": "willys",
-        "price_sek": 49.9,
+        "price_sek": 24.9,
         "checked": false
       },
       {
-        "name": "Paprikamix 400g",
-        "amount": "1 förp",
+        "name": "Delade pumpor",
+        "amount": "1 st",
         "store": "willys",
-        "price_sek": 27.9,
+        "price_sek": 29.9,
         "checked": false
       },
       {
-        "name": "Pastasås",
-        "amount": "2 burkar",
-        "store": "willys",
-        "price_sek": 69.84,
-        "checked": false
-      },
-      {
-        "name": "Pasta",
-        "amount": "500 g",
-        "store": "willys",
-        "price_sek": 19.9,
-        "checked": false
-      },
-      {
-        "name": "Salsicciafärs, chorizofärs",
+        "name": "Ekologisk kokosmjölk",
         "amount": "2 förp",
         "store": "willys",
-        "price_sek": 59.8,
+        "price_sek": 35.8,
         "checked": false
       },
       {
-        "name": "Färsk pasta",
+        "name": "Ekologiska buljongtärningar",
         "amount": "2 förp",
         "store": "willys",
-        "price_sek": 33.0,
+        "price_sek": 21.8,
         "checked": false
       },
       {
-        "name": "Ricotta",
+        "name": "Buljong (flytande/tärning)",
         "amount": "1 förp",
         "store": "willys",
-        "price_sek": 17.9,
-        "checked": false
-      },
-      {
-        "name": "Tofu",
-        "amount": "3 förp",
-        "store": "willys",
-        "price_sek": 35.7,
-        "checked": false
-      },
-      {
-        "name": "Ekologiska bönor",
-        "amount": "3 förp",
-        "store": "willys",
-        "price_sek": 36.6,
-        "checked": false
-      },
-      {
-        "name": "Spenat, ruccola, säsongsmix 200-250g",
-        "amount": "1 förp",
-        "store": "willys",
-        "price_sek": 19.9,
-        "checked": false
-      },
-      {
-        "name": "Ekologisk couscous",
-        "amount": "1 förp",
-        "store": "willys",
-        "price_sek": 18.83,
+        "price_sek": 11.83,
         "checked": false
       }
     ],
     "pantry_items": [
       {
-        "name": "Olivolja",
-        "amount": "4 msk",
-        "checked": false
-      },
-      {
-        "name": "Olja (neutral)",
-        "amount": "3 msk",
-        "checked": false
-      },
-      {
-        "name": "Lagerblad",
-        "amount": "2 st",
-        "checked": false
-      },
-      {
-        "name": "Timjan (torkad)",
-        "amount": "1 tsk",
-        "checked": false
-      },
-      {
-        "name": "Paprikapulver",
-        "amount": "2 tsk",
+        "name": "Rapsolja",
+        "amount": "2 dl",
         "checked": false
       },
       {
         "name": "Lök",
-        "amount": "1 st",
+        "amount": "5 st",
         "checked": false
       },
       {
         "name": "Vitlök",
-        "amount": "6 klyftor",
+        "amount": "1 huvud",
         "checked": false
       },
       {
-        "name": "Soja",
-        "amount": "3 msk",
-        "checked": false
-      },
-      {
-        "name": "Chili (torkad eller flakes)",
-        "amount": "1 tsk",
+        "name": "Citron",
+        "amount": "1 st",
         "checked": false
       },
       {
@@ -459,10 +427,40 @@
         "name": "Svartpeppar",
         "amount": "efter smak",
         "checked": false
+      },
+      {
+        "name": "Paprikapulver / rökt paprika",
+        "amount": "efter smak",
+        "checked": false
+      },
+      {
+        "name": "Citronpeppar",
+        "amount": "efter smak",
+        "checked": false
+      },
+      {
+        "name": "Dill (torkad eller färsk)",
+        "amount": "efter smak",
+        "checked": false
+      },
+      {
+        "name": "Oregano",
+        "amount": "efter smak",
+        "checked": false
+      },
+      {
+        "name": "Ingefära (mald)",
+        "amount": "efter smak",
+        "checked": false
+      },
+      {
+        "name": "Gurkmeja",
+        "amount": "efter smak",
+        "checked": false
       }
     ]
   },
-  "total_cost_sek": 554.63,
-  "estimated_protein_g_week": 760,
-  "notes": "⚠️ Kassler: ursprung är inte angivet i erbjudandelistan – välj produkt märkt med svensk flagga i butiken, annars byt ut mot ägg eller kvarg som proteinkälla. ⚠️ Kycklingben: ursprung okänt i erbjudandedata – kontrollera att förpackningen är märkt 'Svensk fågel'. ⚠️ Salsicciafärs/chorizofärs: klassas som fläsk/fläskbaserad produkt med okänt ursprung – välj produkt med tydlig svensk märkning eller byt mot ytterligare tofu och bönor. Alla tre proteinvarningar kan lösas med alternativet vegowok (rätt 4) som är helt ursprungssäker."
+  "total_cost_sek": 632.53,
+  "estimated_protein_g_week": 850,
+  "notes": "⚠️ Ursprungsvarning: Fläskfärs och Kycklingbröstfilé saknar ursprungsangivelse i butikens erbjudandedata – kontrollera förpackningens märkning i butik att köttet är av SVENSKT ursprung. Om ursprung ej kan bekräftas: ersätt fläskfärs med ytterligare kvarg + vita bönor, och kycklingfilé med ägg eller hushållsost för säkra proteinkällor. Totalkostnaden för offer_items är 632 kr, marginellt över 625 kr-målet – du kan ta bort ett av champinjonförpackningarna (–15,90 kr) för att komma under taket utan att påverka recepten nämnvärt. Laxen saknar köttregler och är alltid ett säkert val."
 }
