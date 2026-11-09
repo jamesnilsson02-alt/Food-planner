@@ -1,5 +1,5 @@
 {
-  "week": "2026-11-02",
+  "week": "2026-11-09",
   "strategy": {
     "primary_store": "willys",
     "split": false,
@@ -8,45 +8,59 @@
   },
   "meals": [
     {
-      "name": "Fläskytterfilé med paprika och kokosgrädde",
-      "description": "Saftig fläskytterfilé i krämig kokossås med paprika och kryddor. Serveras med ris.",
-      "protein_g_per_serving": 45,
+      "name": "Ugnsrostade kycklingklubbor med vitlök och rosmarin",
+      "description": "Saftiga kycklingklubbor ugnsrostade med vitlök, rosmarin och olivolja. Serveras med ris och röd spetspaprika.",
+      "protein_g_per_serving": 38,
       "servings": 5,
       "instructions": [
-        "Skär fläskytterfilén i 2 cm skivor, krydda med salt, peppar och spiskummin.",
-        "Bryn köttet i omgångar i het panna med lite olja, lägg åt sidan.",
-        "Fräs paprikamix i samma panna i 3 minuter.",
-        "Häll i kokosgrädde och finkrossade tomater, rör ihop och låt koka upp.",
-        "Lägg tillbaka köttet, sjud på låg värme i 20 minuter.",
-        "Servera med kokt ris."
+        "Sätt ugnen på 220°C.",
+        "Gnid in kycklingklubborna med olivolja, vitlök, rosmarin, salt och peppar.",
+        "Lägg på plåt och rosta i 40–45 min tills gyllenbruna.",
+        "Skiva paprika och stek i panna 5 min med lite olja och salt.",
+        "Koka ris enligt förpackning.",
+        "Fördela i matlådor: 2 klubbor + ris + paprika per portion."
       ],
       "ingredients": [
         {
-          "name": "Fläskytterfilé",
-          "amount": "1 kg",
+          "name": "Kycklingklubbor",
+          "amount": "1 förp (~1 kg)",
           "store": "willys",
-          "price_sek": 89.9,
+          "price_sek": 55.9,
           "origin_flag": "⚠️ Ursprung okänt"
         },
         {
-          "name": "Paprikamix 400g",
-          "amount": "400 g",
+          "name": "Röd spetspaprika 200g",
+          "amount": "1 förp",
           "store": "willys",
-          "price_sek": 29.9,
+          "price_sek": 19.9,
           "origin_flag": null
         },
         {
-          "name": "Kokosgrädde",
-          "amount": "1 förp",
-          "store": "willys",
-          "price_sek": 24.9,
+          "name": "Olivolja",
+          "amount": "3 msk",
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         },
         {
-          "name": "Finkrossade tomater 3-pack",
-          "amount": "1 förp",
-          "store": "willys",
-          "price_sek": 29.9,
+          "name": "Vitlök",
+          "amount": "4 klyftor",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Torkad rosmarin",
+          "amount": "2 tsk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Salt och peppar",
+          "amount": "efter smak",
+          "store": "pantry",
+          "price_sek": null,
           "origin_flag": null
         },
         {
@@ -55,48 +69,42 @@
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
-        },
-        {
-          "name": "Matolja",
-          "amount": "2 msk",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Salt, peppar, spiskummin",
-          "amount": "efter smak",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
         }
       ]
     },
     {
-      "name": "Fläskfärsbiffar med potatisgratäng",
-      "description": "Saftiga, kryddiga fläskfärsbiffar stekta i panna, serverade med färdiglagad potatisgratäng. Enkel klassiker för bulk.",
-      "protein_g_per_serving": 38,
+      "name": "Blandfärsbiffar med champinjoner och gräddssås",
+      "description": "Klassiska köttbiffar av blandfärs stekta i panna, toppade med champinjonsås på laktosfri matgrädde. Serveras med pasta.",
+      "protein_g_per_serving": 42,
       "servings": 5,
       "instructions": [
-        "Blanda fläskfärs med salt, peppar, pressad vitlök och ägg.",
-        "Forma till 10 biffar, platta till lätt.",
-        "Stek biffarna i panna på medelhög värme, 4 minuter per sida.",
-        "Tillaga potatisgratängen enligt förpackning i ugnen.",
-        "Servera biffar med potatisgratäng och ett glas mjölk."
+        "Blanda blandfärs med ägg, salt, peppar och lite lök. Forma 10 biffar.",
+        "Stek biffarna i olja, ca 4 min per sida. Lyft ur.",
+        "Skiva champinjoner och stek gyllenbruna i samma panna.",
+        "Häll i matgrädde, en skvätt soja och låt koka ihop 3 min.",
+        "Koka pasta enligt förpackning.",
+        "Fördela biffar, sås och pasta i matlådor."
       ],
       "ingredients": [
         {
-          "name": "Fläskfärs",
-          "amount": "800 g",
+          "name": "Blandfärs",
+          "amount": "1 förp (~800 g)",
           "store": "willys",
-          "price_sek": 39.9,
+          "price_sek": 92.9,
           "origin_flag": "⚠️ Ursprung okänt"
         },
         {
-          "name": "Potatisgratäng",
-          "amount": "2 förp",
+          "name": "Champinjoner 250g",
+          "amount": "1 förp",
           "store": "willys",
-          "price_sek": 51.0,
+          "price_sek": 16.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Laktosfri matgrädde",
+          "amount": "1 förp (2 dl)",
+          "store": "willys",
+          "price_sek": 22.9,
           "origin_flag": null
         },
         {
@@ -107,8 +115,15 @@
           "origin_flag": null
         },
         {
-          "name": "Vitlök",
-          "amount": "2 klyftor",
+          "name": "Lök",
+          "amount": "1 st",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Soja",
+          "amount": "1 msk",
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
@@ -116,6 +131,13 @@
         {
           "name": "Salt och peppar",
           "amount": "efter smak",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Pasta",
+          "amount": "500 g",
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
@@ -130,45 +152,38 @@
       ]
     },
     {
-      "name": "Bolognese med nötfärs på spaghetti",
-      "description": "Klassisk köttfärssås på nötfärs med finkrossade tomater och spaghetti. Enkel, proteinrik och hög kaloritäthet.",
-      "protein_g_per_serving": 48,
-      "servings": 5,
+      "name": "Ugnsrostad lax med finkrossade tomater och bönor",
+      "description": "Laxfiléer ugnsrostade och serverade med en enkel tomat- och böngryta smaksatt med vitlök och örter. Mättande och proteintät.",
+      "protein_g_per_serving": 45,
+      "servings": 4,
       "instructions": [
-        "Hacka lök och vitlök fint, fräs i gryta med olja i 5 minuter.",
-        "Tillsätt nötfärsen, bryn tills genomstekt under omrörning.",
-        "Häll i finkrossade tomater, krydda med salt, peppar, oregano och timjan.",
-        "Sjud såsen på låg värme i 25 minuter.",
-        "Koka spaghetti enligt förpackning.",
-        "Servera sås över spaghetti, toppa med riven ost om så önskas."
+        "Sätt ugnen på 200°C. Krydda laxfiléerna med salt, peppar och lite olivolja.",
+        "Rosta lax i ugnen ca 15–18 min.",
+        "Fräs vitlök i olja i en kastrull, häll i krossade tomater.",
+        "Skölj och häll i ekologiska bönor, krydda med oregano, salt och peppar.",
+        "Låt puttra 10 min på medelvärme.",
+        "Lägg lax och böngryta i matlådor."
       ],
       "ingredients": [
         {
-          "name": "Nötfärs",
-          "amount": "800 g",
+          "name": "Laxfilé 4-pack",
+          "amount": "1 förp",
           "store": "willys",
-          "price_sek": 152.0,
-          "origin_flag": "⚠️ Ursprung okänt"
-        },
-        {
-          "name": "Spaghetti",
-          "amount": "500 g",
-          "store": "willys",
-          "price_sek": 13.5,
+          "price_sek": 93.9,
           "origin_flag": null
         },
         {
-          "name": "Finkrossade tomater (kvarvarande ur 3-pack)",
-          "amount": "2 burkar",
-          "store": "pantry",
-          "price_sek": null,
+          "name": "Finkrossade tomater 3-pack",
+          "amount": "1 förp",
+          "store": "willys",
+          "price_sek": 29.9,
           "origin_flag": null
         },
         {
-          "name": "Lök",
-          "amount": "2 st",
-          "store": "pantry",
-          "price_sek": null,
+          "name": "Ekologiska bönor, kikärter, linser",
+          "amount": "2 förp",
+          "store": "willys",
+          "price_sek": 25.8,
           "origin_flag": null
         },
         {
@@ -179,8 +194,15 @@
           "origin_flag": null
         },
         {
-          "name": "Oregano, timjan",
-          "amount": "1 tsk vardera",
+          "name": "Olivolja",
+          "amount": "2 msk",
+          "store": "pantry",
+          "price_sek": null,
+          "origin_flag": null
+        },
+        {
+          "name": "Torkad oregano",
+          "amount": "1 tsk",
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
@@ -188,13 +210,6 @@
         {
           "name": "Salt och peppar",
           "amount": "efter smak",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Matolja",
-          "amount": "2 msk",
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
@@ -202,57 +217,50 @@
       ]
     },
     {
-      "name": "Kikärtsgyta med kokt skinka och broccoli",
-      "description": "Mustig gryta med kikärter, kokt skinka och broccoli i tomatbas. Billig, proteinrik och perfekt att frysa in.",
+      "name": "Äggmuffins med kassler och skyr",
+      "description": "Proteinrika äggmuffins bakade med kassler och ost – perfekta som frukost eller mellanmål hela veckan. Serveras med ekologisk skyr.",
       "protein_g_per_serving": 35,
-      "servings": 4,
+      "servings": 5,
       "instructions": [
-        "Hacka lök och vitlök, fräs i gryta med olja på medelvärme i 4 minuter.",
-        "Skär skinkan i kuber, tillsätt i grytan och fräs ytterligare 2 minuter.",
-        "Häll i kikärter (avrunna) och finkrossade tomater, rör om.",
-        "Dela broccoli i buketter, lägg i grytan.",
-        "Låt sjuda under lock i 15 minuter, smaka av med salt och peppar.",
-        "Servera som den är eller med bröd."
+        "Sätt ugnen på 180°C. Smörj en muffinsform med olja.",
+        "Skär kassler i småbitar och fördela i formarna.",
+        "Vispa 10 ägg med salt, peppar och lite mjölk.",
+        "Häll äggsmeten över kasslern, toppa med riven Gouda.",
+        "Grädda 18–20 min tills äggmuffinsen stelnat.",
+        "Servera med en klick ekologisk skyr per portion."
       ],
       "ingredients": [
         {
-          "name": "Kokt skinka",
-          "amount": "2 förp (ca 400 g)",
+          "name": "Ägg 10-pack",
+          "amount": "1 förp",
           "store": "willys",
-          "price_sek": 45.8,
+          "price_sek": 37.9,
+          "origin_flag": null
+        },
+        {
+          "name": "Kassler",
+          "amount": "1 förp (~400 g)",
+          "store": "willys",
+          "price_sek": 84.9,
           "origin_flag": "⚠️ Ursprung okänt"
         },
         {
-          "name": "Kikärter",
-          "amount": "3 burkar",
+          "name": "Gouda",
+          "amount": "1 förp",
           "store": "willys",
-          "price_sek": 28.5,
+          "price_sek": 69.9,
           "origin_flag": null
         },
         {
-          "name": "Broccoli 250g",
-          "amount": "250 g",
+          "name": "Ekologisk skyr",
+          "amount": "1 förp",
           "store": "willys",
-          "price_sek": 14.9,
+          "price_sek": 19.9,
           "origin_flag": null
         },
         {
-          "name": "Lök",
-          "amount": "1 st",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Vitlök",
-          "amount": "2 klyftor",
-          "store": "pantry",
-          "price_sek": null,
-          "origin_flag": null
-        },
-        {
-          "name": "Finkrossade tomater (ur 3-pack, se rätt 1)",
-          "amount": "1 burk",
+          "name": "Mjölk",
+          "amount": "0,5 dl",
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
@@ -265,8 +273,8 @@
           "origin_flag": null
         },
         {
-          "name": "Matolja",
-          "amount": "2 msk",
+          "name": "Matolja (till formen)",
+          "amount": "lite",
           "store": "pantry",
           "price_sek": null,
           "origin_flag": null
@@ -277,24 +285,45 @@
   "shopping_list": {
     "offer_items": [
       {
-        "name": "Fläskytterfilé",
-        "amount": "1 kg",
+        "name": "Kycklingklubbor",
+        "amount": "1 förp (~1 kg)",
         "store": "willys",
-        "price_sek": 89.9,
+        "price_sek": 55.9,
         "checked": false
       },
       {
-        "name": "Paprikamix 400g",
-        "amount": "400 g",
-        "store": "willys",
-        "price_sek": 29.9,
-        "checked": false
-      },
-      {
-        "name": "Kokosgrädde",
+        "name": "Röd spetspaprika 200g",
         "amount": "1 förp",
         "store": "willys",
-        "price_sek": 24.9,
+        "price_sek": 19.9,
+        "checked": false
+      },
+      {
+        "name": "Blandfärs",
+        "amount": "1 förp (~800 g)",
+        "store": "willys",
+        "price_sek": 92.9,
+        "checked": false
+      },
+      {
+        "name": "Champinjoner 250g",
+        "amount": "1 förp",
+        "store": "willys",
+        "price_sek": 16.9,
+        "checked": false
+      },
+      {
+        "name": "Laktosfri matgrädde",
+        "amount": "1 förp",
+        "store": "willys",
+        "price_sek": 22.9,
+        "checked": false
+      },
+      {
+        "name": "Laxfilé 4-pack",
+        "amount": "1 förp",
+        "store": "willys",
+        "price_sek": 93.9,
         "checked": false
       },
       {
@@ -305,52 +334,38 @@
         "checked": false
       },
       {
-        "name": "Fläskfärs",
-        "amount": "800 g",
-        "store": "willys",
-        "price_sek": 39.9,
-        "checked": false
-      },
-      {
-        "name": "Potatisgratäng",
+        "name": "Ekologiska bönor, kikärter, linser",
         "amount": "2 förp",
         "store": "willys",
-        "price_sek": 51.0,
+        "price_sek": 25.8,
         "checked": false
       },
       {
-        "name": "Nötfärs",
-        "amount": "800 g",
+        "name": "Ägg 10-pack",
+        "amount": "1 förp",
         "store": "willys",
-        "price_sek": 152.0,
+        "price_sek": 37.9,
         "checked": false
       },
       {
-        "name": "Spaghetti",
-        "amount": "500 g",
+        "name": "Kassler",
+        "amount": "1 förp (~400 g)",
         "store": "willys",
-        "price_sek": 13.5,
+        "price_sek": 84.9,
         "checked": false
       },
       {
-        "name": "Kokt skinka",
-        "amount": "2 förp",
+        "name": "Gouda",
+        "amount": "1 förp",
         "store": "willys",
-        "price_sek": 45.8,
+        "price_sek": 69.9,
         "checked": false
       },
       {
-        "name": "Kikärter",
-        "amount": "3 burkar",
+        "name": "Ekologisk skyr",
+        "amount": "1 förp",
         "store": "willys",
-        "price_sek": 28.5,
-        "checked": false
-      },
-      {
-        "name": "Broccoli 250g",
-        "amount": "250 g",
-        "store": "willys",
-        "price_sek": 14.9,
+        "price_sek": 19.9,
         "checked": false
       }
     ],
@@ -361,38 +376,18 @@
         "checked": false
       },
       {
+        "name": "Pasta",
+        "amount": "500 g",
+        "checked": false
+      },
+      {
+        "name": "Olivolja",
+        "amount": "5 msk",
+        "checked": false
+      },
+      {
         "name": "Matolja",
-        "amount": "1 dl",
-        "checked": false
-      },
-      {
-        "name": "Salt",
-        "amount": "efter smak",
-        "checked": false
-      },
-      {
-        "name": "Svartpeppar",
-        "amount": "efter smak",
-        "checked": false
-      },
-      {
-        "name": "Spiskummin",
-        "amount": "1 tsk",
-        "checked": false
-      },
-      {
-        "name": "Oregano",
-        "amount": "1 tsk",
-        "checked": false
-      },
-      {
-        "name": "Timjan",
-        "amount": "1 tsk",
-        "checked": false
-      },
-      {
-        "name": "Lök",
-        "amount": "3 st",
+        "amount": "4 msk",
         "checked": false
       },
       {
@@ -401,13 +396,38 @@
         "checked": false
       },
       {
-        "name": "Ägg",
-        "amount": "2 st",
+        "name": "Lök",
+        "amount": "1 st",
+        "checked": false
+      },
+      {
+        "name": "Torkad rosmarin",
+        "amount": "2 tsk",
+        "checked": false
+      },
+      {
+        "name": "Torkad oregano",
+        "amount": "1 tsk",
+        "checked": false
+      },
+      {
+        "name": "Soja",
+        "amount": "1 msk",
+        "checked": false
+      },
+      {
+        "name": "Mjölk",
+        "amount": "0,5 dl",
+        "checked": false
+      },
+      {
+        "name": "Salt och peppar",
+        "amount": "efter smak",
         "checked": false
       }
     ]
   },
-  "total_cost_sek": 520.2,
-  "estimated_protein_g_week": 1310,
-  "notes": "⚠️ Ursprungsvarning: Fläskytterfilé, Fläskfärs, Nötfärs och Kokt skinka saknar ursprungsangivelse i erbjudandelistan. Dessa MÅSTE vara av svenskt ursprung enligt köttkravet – kontrollera förpackningens märkning i butik. Om ursprung ej kan bekräftas, byt ut mot ägg, kvarg eller bönor som proteinkälla. Finkrossade tomater (3-pack) används i tre av fyra rätter för att minimera svinn och hålla kostnaden nere. Potatisgratäng är en fryst/kyld halvfabrikat men ej en färdigrätt – bedöms godkänd som tillbehör."
+  "total_cost_sek": 569.7,
+  "estimated_protein_g_week": 1120,
+  "notes": "⚠️ Kycklingklubborna och Kasslern saknar ursprungsangivelse i butikens erbjudandedata – kontrollera förpackningens ursprungsmärkning i butik. Välj enbart om märkt med Sverige/Svensk. Blandfärsen saknar också ursprungsangivelse – kontrollera att den innehåller svenskt nöt- och fläskkött. Vid tveksamhet: ersätt med extra ägg, skyr eller bönor som alltid är säkra proteinkällor. Ekologiska bönor à 12,90 kr styck × 2 = 25,80 kr."
 }
